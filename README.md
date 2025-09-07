@@ -1,40 +1,210 @@
-<<<<<<< HEAD
-# zeba_enterprise_website
-=======
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Zeba Enterprise - Import/Export Website
 
-## Getting Started
+A professional, SEO-optimized Next.js website for Zeba Enterprise, a leading import-export company specializing in connecting global markets with premium Indian products.
 
-First, run the development server:
+## 🌟 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Modern Design**: Professional UI with clean aesthetics and intuitive navigation
+- **Fully Responsive**: Mobile-first design that works perfectly on all devices
+- **SEO Optimized**: Comprehensive SEO implementation with meta tags, structured data, and sitemap
+- **Performance Focused**: Optimized images, lazy loading, and fast page loads
+- **Interactive Components**: Hero slider, contact forms, product galleries
+- **Professional Layout**: Header, footer, and consistent branding throughout
+- **PWA Ready**: Includes manifest.json for progressive web app capabilities
+
+## 🚀 Tech Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Animations**: Framer Motion
+- **Image Optimization**: Next.js Image component
+
+## 📁 Project Structure
+
+```
+src/
+├── app/                    # Next.js App Router pages
+│   ├── about/             # About page
+│   ├── contact/           # Contact page
+│   ├── products/          # Products page
+│   ├── services/          # Services page
+│   ├── layout.tsx         # Root layout
+│   ├── page.tsx           # Homepage
+│   ├── globals.css        # Global styles
+│   ├── sitemap.ts         # Sitemap generation
+│   ├── robots.ts          # Robots.txt generation
+│   └── manifest.ts        # PWA manifest
+├── components/
+│   ├── layout/           # Layout components
+│   │   ├── Header.tsx    # Navigation header
+│   │   └── Footer.tsx    # Site footer
+│   └── ui/               # Reusable UI components
+│       ├── HeroSlider.tsx     # Image carousel
+│       ├── ServiceCard.tsx    # Service/feature cards
+│       ├── ProductGrid.tsx    # Product display grid
+│       ├── ContactForm.tsx    # Contact form
+│       └── SEOHead.tsx        # SEO utilities
+public/
+├── images/               # Static images
+└── icons/               # Icon assets
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Installation & Setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd zeba-enterprise
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. **Set up environment variables**
+   Create a `.env.local` file in the root directory:
+   ```env
+   NEXT_PUBLIC_BASE_URL=https://zebaenterprise.com
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. **Run the development server**
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📝 Available Scripts
 
-## Deploy on Vercel
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+- `npm run type-check` - Run TypeScript type checking
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Customization
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
->>>>>>> 3f6e52b (Initial commit from Create Next App)
+### Colors
+The website uses a professional color scheme defined in `src/app/globals.css`:
+- **Primary**: Navy blue (#1e3a8a)
+- **Secondary**: Orange (#f97316)
+- **Background**: White (#ffffff)
+
+### Content
+Update content in the following files:
+- **Homepage**: `src/app/page.tsx`
+- **About**: `src/app/about/page.tsx`
+- **Services**: `src/app/services/page.tsx`
+- **Products**: `src/app/products/page.tsx`
+- **Contact**: `src/app/contact/page.tsx`
+
+### Images
+Replace placeholder images in the `public/images/` directory with actual company images.
+
+### Company Information
+Update company details in:
+- Header component (`src/components/layout/Header.tsx`)
+- Footer component (`src/components/layout/Footer.tsx`)
+- SEO metadata (`src/components/ui/SEOHead.tsx`)
+
+## 📱 Pages Overview
+
+### Homepage (/)
+- Hero slider with company messaging
+- About section with company introduction
+- Services overview with 4 main services
+- Product categories showcase
+- "Why Choose Us" features
+- Certifications display
+- Call-to-action section
+
+### About (/about)
+- Company story and background
+- Mission, vision, and values
+- Team member profiles
+- Company timeline/milestones
+- Statistics and achievements
+
+### Services (/services)
+- Detailed service descriptions
+- Export services
+- Import agent services
+- Sourcing agent services
+- Trade consultation
+- Process workflows
+- Additional support services
+
+### Products (/products)
+- Product category grid
+- Detailed product specifications
+- Quality standards information
+- Export process overview
+- Product highlights
+
+### Contact (/contact)
+- Contact form
+- Multiple contact methods
+- Department-specific contacts
+- Office location (map placeholder)
+- FAQ section
+- Emergency contact information
+
+## 🔧 SEO Features
+
+- **Meta Tags**: Unique title and description for each page
+- **Open Graph**: Social media sharing optimization
+- **Structured Data**: Schema.org markup for business information
+- **Sitemap**: Automatically generated sitemap.xml
+- **Robots.txt**: Search engine crawler instructions
+- **Canonical URLs**: Proper URL canonicalization
+- **Performance**: Optimized Core Web Vitals
+
+## 📊 Performance Optimizations
+
+- **Image Optimization**: Next.js Image component with lazy loading
+- **Code Splitting**: Automatic code splitting with Next.js
+- **Bundle Optimization**: Tree shaking and dead code elimination
+- **Caching**: Static generation where possible
+- **Compression**: Automatic asset compression
+
+## 🌐 Deployment
+
+### Vercel (Recommended)
+1. Push code to GitHub repository
+2. Connect repository to Vercel
+3. Deploy automatically
+
+### Other Platforms
+1. Build the project: `npm run build`
+2. Upload the `out` directory (if using static export) or deploy the full project
+
+## 📞 Support
+
+For technical support or customization requests, please contact:
+- **Email**: developer@zebaenterprise.com
+- **Phone**: +91-XXXXXXXXXX
+
+## 📄 License
+
+This project is proprietary and confidential. All rights reserved by Zeba Enterprise.
+
+---
+
+## 🎯 Next Steps
+
+1. **Replace placeholder images** with actual company photos
+2. **Update contact information** with real details
+3. **Customize content** to match company messaging
+4. **Add Google Analytics** for tracking
+5. **Set up contact form backend** for form submissions
+6. **Configure Google Maps** integration
+7. **Add real testimonials** and case studies
+8. **Implement blog section** (optional)
+9. **Set up SSL certificate** for production
+10. **Submit to search engines** for indexing
+
+Built with ❤️ for Zeba Enterprise

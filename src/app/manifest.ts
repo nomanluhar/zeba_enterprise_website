@@ -1,0 +1,33 @@
+import { MetadataRoute } from 'next'
+
+export default function manifest(): MetadataRoute.Manifest {
+  return {
+    name: 'Zeba Enterprise - Leading Import Export Company',
+    short_name: 'Zeba Enterprise',
+    description: 'Leading import-export company specializing in connecting global markets with premium Indian products',
+    start_url: '/',
+    display: 'standalone',
+    background_color: '#ffffff',
+    theme_color: '#1e3a8a',
+    icons: [
+      {
+        src: '/favicon.ico',
+        sizes: 'any',
+        type: 'image/x-icon',
+      },
+      {
+        src: '/icon-192.png',
+        sizes: '192x192',
+        type: 'image/png',
+      },
+      {
+        src: '/icon-512.png',
+        sizes: '512x512',
+        type: 'image/png',
+      },
+    ],
+    categories: ['business', 'trade', 'import', 'export'],
+    lang: 'en',
+    dir: 'ltr',
+  }
+}
