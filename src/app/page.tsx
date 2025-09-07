@@ -13,7 +13,7 @@ const HomePage = () => (
     <ServicesSection />
     <ProductCategoriesSection />
     <WhyChooseUsSection />
-    {/* <CertificationsSection /> */}
+    <CertificationsSection />
     <CTASection />
   </div>
 );

@@ -25,14 +25,16 @@ import {
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 
-interface ProductPageProps {
-  params: {
-    category: string;
-    product: string;
-  };
-}
+// interface ProductPageProps {
+//   params: {
+//     category: string;
+//     product: string;
+//   };
+// }
 
-export async function generateMetadata({ params }: ProductPageProps): Promise<Metadata> {
+export async function generateMetadata({ params }: {
+  params: { category: string; product: string };
+}): Promise<Metadata> {
   const product = getProductById(params.product);
   const category = getCategoryBySlug(params.category);
   
@@ -67,7 +69,9 @@ export async function generateStaticParams() {
   return params;
 }
 
-const ProductPage = ({ params }: ProductPageProps) => {
+const ProductPage = ({ params }: {
+  params: { category: string; product: string };
+}) => {
   const product = getProductById(params.product);
   const category = getCategoryBySlug(params.category);
   const relatedProducts = product ? getRelatedProducts(product.id) : [];

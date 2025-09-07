@@ -56,7 +56,7 @@ const Header = () => {
               <span>Ahmedabad, Gujarat, India</span>
             </div>
           </div>
-          {/* <div className="flex items-center gap-1">
+          <div className="flex items-center gap-1">
             <span>Follow Us:</span>
             <div className="flex gap-2">
               <Facebook size={14} />
@@ -64,7 +64,7 @@ const Header = () => {
               <TwitterIcon size={14} />
               <Linkedin size={14} />
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
 
