@@ -17,25 +17,25 @@ const AboutPage = () => {
     {
       name: 'Rajesh Patel',
       position: 'Managing Director',
-      image: '/images/hero-1.jpg',
+      image: '/images/hero-page-sliders/hero-1.jpg',
       description: 'With over 20 years of experience in international trade, Rajesh leads our strategic vision.',
     },
     {
       name: 'Priya Sharma',
       position: 'Export Manager',
-      image: '/images/hero-2.jpg',
+      image: '/images/hero-page-sliders/hero-2.jpg',
       description: 'Priya oversees all export operations and ensures quality compliance across all shipments.',
     },
     {
       name: 'Mohammed Ali',
       position: 'Import Specialist',
-      image: '/images/hero-3.jpg',
+      image: '/images/hero-page-sliders/hero-3.jpg',
       description: 'Mohammed manages import operations and helps international clients enter Indian markets.',
     },
     {
       name: 'Anita Singh',
       position: 'Quality Assurance Head',
-      image: '/images/hero-4.jpg',
+      image: '/images/hero-page-sliders/hero-4.jpg',
       description: 'Anita ensures all products meet international quality standards and certification requirements.',
     },
   ];
@@ -161,7 +161,7 @@ const AboutPage = () => {
               <div className="relative">
                 <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
                   <Image
-                    src="/images/hero-1.jpg"
+                    src="/images/hero-page-sliders/hero-1.jpg"
                     alt="Zeba Enterprise Story"
                     fill
                     className="object-cover"

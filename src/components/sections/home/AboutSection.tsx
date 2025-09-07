@@ -18,7 +18,7 @@ const AboutSection = () => (
         <div className="lg:col-span-1">
           <div className="relative h-64 lg:h-80 rounded-lg overflow-hidden shadow-lg">
             <Image
-              src="/images/hero-1.jpg"
+              src="/images/hero-page-sliders/hero-1.jpg"
               alt="About Zeba Enterprise"
               fill
               className="object-cover"

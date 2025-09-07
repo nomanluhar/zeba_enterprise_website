@@ -36,13 +36,15 @@ const ContactForm = ({ className = '', initialProductInterest = '', hideProductI
 
   const productCategories = [
     'Textiles & Garments',
-    'Handicrafts',
-    'Spices & Food Products',
+    'Leather Products',
     'Furniture',
-    'Electronics',
-    'Machinery',
-    'Agricultural Products',
-    'Chemical Products',
+    'Imitation Jewellery',
+    'Handicrafts',
+    'Copper Products',
+    'Packaging Products',
+    'Spices & Food Products',
+    // 'Electronics',
+    // 'Machinery',
     'Other',
   ];
 

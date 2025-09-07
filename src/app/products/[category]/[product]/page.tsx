@@ -81,7 +81,7 @@ const ProductPage = ({ params }: ProductPageProps) => {
     description: product.description,
     image: product.image,
     category: product.category,
-    price: product.price
+    // price: product.price
   });
 
   return (

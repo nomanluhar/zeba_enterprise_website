@@ -179,14 +179,14 @@ const CategoryPage = ({ params }: CategoryPageProps) => {
                       {/* Overlay */}
                       <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
                       
-                      {/* Price Badge */}
+                      {/* Price Badge
                       {product.price && (
                         <div className="absolute top-4 right-4">
                           <span className="bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
                             ${product.price.min}-{product.price.max} {product.price.unit}
                           </span>
                         </div>
-                      )}
+                      )} */}
 
                       {/* View Details Button */}
                       <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -218,7 +218,7 @@ const CategoryPage = ({ params }: CategoryPageProps) => {
                       {/* Product Details */}
                       <div className="flex items-center justify-between pt-4 border-t border-gray-100">
                         <div className="text-sm text-gray-500">
-                          MOQ: {product.moq}
+                          {/* MOQ: {product.moq} */}
                         </div>
                         <div className="flex items-center gap-1 text-secondary font-medium">
                           <span className="text-sm">Learn More</span>

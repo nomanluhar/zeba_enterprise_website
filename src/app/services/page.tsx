@@ -58,7 +58,7 @@ const ServicesPage = () => {
       title: 'Export Services',
       subtitle: 'Take Your Products Global',
       description: 'We provide comprehensive export services to help Indian manufacturers and suppliers reach international markets with confidence and success.',
-      image: '/images/hero-1.jpg',
+      image: '/images/hero-page-sliders/hero-1.jpg',
       features: [
         'Market Research & Analysis',
         'Product Certification & Quality Assurance',
@@ -86,7 +86,7 @@ const ServicesPage = () => {
       title: 'Import Agent Services',
       subtitle: 'Your Gateway to Indian Markets',
       description: 'We help international companies establish their presence in Indian markets through our comprehensive import representation services.',
-      image: '/images/hero-2.jpg',
+      image: '/images/hero-page-sliders/hero-2.jpg',
       features: [
         'Market Entry Strategy',
         'Local Regulatory Compliance',
@@ -114,7 +114,7 @@ const ServicesPage = () => {
       title: 'Sourcing Agent Services',
       subtitle: 'Find the Right Suppliers',
       description: 'Our sourcing services help international buyers find reliable Indian suppliers and manufacturers for their specific requirements.',
-      image: '/images/hero-3.jpg',
+      image: '/images/hero-page-sliders/hero-3.jpg',
       features: [
         'Supplier Identification & Verification',
         'Factory Audits & Quality Assessment',
@@ -142,7 +142,7 @@ const ServicesPage = () => {
       title: 'Trade Consultation',
       subtitle: 'Expert Guidance for Success',
       description: 'Get expert advice and consultation on international trade strategies, market entry, and business expansion opportunities.',
-      image: '/images/hero-4.jpg',
+      image: '/images/hero-page-sliders/hero-4.jpg',
       features: [
         'Trade Strategy Development',
         'Market Entry Planning',

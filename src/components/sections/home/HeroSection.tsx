@@ -4,7 +4,7 @@ import React from 'react';
 const heroSlides = [
   {
     id: 1,
-    image: '/images/hero-1.jpg',
+    image: '/images/hero-page-sliders/hero-5.jpg',
     subtitle: 'Premium Quality Products',
     title: 'Your Gateway to Global Trade',
     description: 'Connecting international markets with premium Indian products. Experience excellence in import-export services with Zeba Enterprise.',
@@ -13,7 +13,7 @@ const heroSlides = [
   },
   {
     id: 2,
-    image: '/images/hero-2.jpg',
+    image: '/images/hero-page-sliders/hero-6.jpg',
     subtitle: 'Export Excellence',
     title: 'Quality Products Worldwide',
     description: 'We export premium quality Indian products to global markets with guaranteed quality and timely delivery.',
@@ -22,7 +22,7 @@ const heroSlides = [
   },
   {
     id: 3,
-    image: '/images/hero-3.jpg',
+    image: '/images/hero-page-sliders/hero-7.jpg',
     subtitle: 'Import Solutions',
     title: 'Your Trusted Import Partner',
     description: 'Helping international companies introduce their products to Indian markets with comprehensive support.',
@@ -31,7 +31,7 @@ const heroSlides = [
   },
   {
     id: 4,
-    image: '/images/hero-4.jpg',
+    image: '/images/hero-page-sliders/hero-8.jpg',
     subtitle: 'Global Sourcing',
     title: 'Sourcing Made Simple',
     description: 'Your local sourcing partner for international clients seeking quality Indian products and reliable suppliers.',

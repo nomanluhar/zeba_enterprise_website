@@ -31,7 +31,7 @@ const ProductsPage = () => {
       id: 1,
       name: 'Textiles & Garments',
       category: 'Textiles',
-      image: '/images/hero-1.jpg',
+      image: '/images/hero-page-sliders/hero-1.jpg',
       description: 'High-quality fabrics, garments, and textile products manufactured with precision and care using premium materials and modern techniques.',
       features: ['Premium Cotton & Silk', 'Export Quality Packaging', 'Custom Designs Available', 'Bulk Order Capability', 'International Standards', 'Eco-Friendly Options'],
       specifications: [
@@ -47,7 +47,7 @@ const ProductsPage = () => {
       id: 2,
       name: 'Handicrafts',
       category: 'Handicrafts',
-      image: '/images/hero-2.jpg',
+      image: '/images/hero-page-sliders/hero-2.jpg',
       description: 'Traditional Indian handicrafts showcasing rich cultural heritage and exceptional artisan craftsmanship passed down through generations.',
       features: ['Handmade by Skilled Artisans', 'Traditional Techniques', 'Eco-Friendly Materials', 'Cultural Authenticity', 'Custom Designs', 'Gift Packaging'],
       specifications: [
@@ -63,7 +63,7 @@ const ProductsPage = () => {
       id: 3,
       name: 'Spices & Food Products',
       category: 'Food',
-      image: '/images/hero-3.jpg',
+      image: '/images/hero-page-sliders/hero-3.jpg',
       description: 'Fresh, aromatic spices and food products sourced directly from Indian farms and producers, maintaining authenticity and quality.',
       features: ['Farm Fresh Quality', 'Organic Options Available', 'Quality Tested', 'Long Shelf Life', 'Proper Packaging', 'FSSAI Certified'],
       specifications: [
@@ -79,7 +79,7 @@ const ProductsPage = () => {
       id: 4,
       name: 'Furniture',
       category: 'Furniture',
-      image: '/images/hero-4.jpg',
+      image: '/images/hero-page-sliders/hero-4.jpg',
       description: 'Elegant wooden and metal furniture combining traditional Indian craftsmanship with modern design aesthetics.',
       features: ['Solid Wood Construction', 'Custom Designs', 'Durable Finish', 'Export Packaging', 'Assembly Instructions', 'Quality Hardware'],
       specifications: [
@@ -95,7 +95,7 @@ const ProductsPage = () => {
       id: 5,
       name: 'Electronics',
       category: 'Electronics',
-      image: '/images/hero-1.jpg',
+      image: '/images/hero-page-sliders/hero-1.jpg',
       description: 'Quality electronic components and devices meeting international standards with proper certifications and technical support.',
       features: ['Quality Tested', 'International Standards', 'Warranty Support', 'Technical Documentation', 'CE Certified', 'After-Sales Service'],
       specifications: [
@@ -111,7 +111,7 @@ const ProductsPage = () => {
       id: 6,
       name: 'Machinery',
       category: 'Industrial',
-      image: '/images/hero-2.jpg',
+      image: '/images/hero-page-sliders/hero-2.jpg',
       description: 'Industrial machinery and equipment for various sectors with comprehensive technical support and training services.',
       features: ['Heavy Duty Construction', 'Technical Support', 'Installation Service', 'Maintenance Support', 'Training Provided', 'Spare Parts Available'],
       specifications: [
@@ -127,7 +127,7 @@ const ProductsPage = () => {
       id: 7,
       name: 'Agricultural Products',
       category: 'Agriculture',
-      image: '/images/hero-3.jpg',
+      image: '/images/hero-page-sliders/hero-3.jpg',
       description: 'Fresh agricultural products including grains, pulses, and other farm produce sourced directly from Indian farmers.',
       features: ['Farm Fresh', 'Quality Grading', 'Proper Storage', 'Pest Free', 'Export Packaging', 'Traceability'],
       specifications: [
@@ -143,7 +143,7 @@ const ProductsPage = () => {
       id: 8,
       name: 'Chemical Products',
       category: 'Chemicals',
-      image: '/images/hero-4.jpg',
+      image: '/images/hero-page-sliders/hero-4.jpg',
       description: 'Industrial and specialty chemicals for various applications with proper safety documentation and handling guidelines.',
       features: ['Industrial Grade', 'Safety Certified', 'Proper Documentation', 'MSDS Provided', 'Quality Tested', 'Regulatory Compliant'],
       specifications: [
@@ -314,7 +314,7 @@ const ProductsPage = () => {
               <div className="relative">
                 <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
                   <Image
-                    src="/images/hero-1.jpg"
+                    src="/images/hero-page-sliders/hero-1.jpg"
                     alt="Quality Products"
                     fill
                     className="object-cover"

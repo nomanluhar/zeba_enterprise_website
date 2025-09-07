@@ -66,7 +66,7 @@ const ProductGrid = ({
       </div>
 
       {/* View All Button */}
-      {showViewAll && (
+      {/* {showViewAll && (
         <div className="text-center mt-12">
           <Link
             href={viewAllHref}
@@ -76,7 +76,7 @@ const ProductGrid = ({
             <ArrowRight size={20} />
           </Link>
         </div>
-      )}
+      )} */}
 
       {/* Enquiry Modal */}
       <EnquiryModal
