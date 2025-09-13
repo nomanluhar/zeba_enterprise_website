@@ -10,6 +10,7 @@ interface FormData {
   country: string;
   company: string;
   productInterest: string;
+  subject: string;
   message: string;
 }
 
@@ -27,6 +28,7 @@ const ContactForm = ({ className = '', initialProductInterest = '', hideProductI
     country: '',
     company: '',
     productInterest: initialProductInterest,
+    subject: '',
     message: '',
   });
 
@@ -59,7 +61,8 @@ const ContactForm = ({ className = '', initialProductInterest = '', hideProductI
     }
     if (!formData.phone.trim()) newErrors.phone = 'Phone number is required';
     if (!formData.country.trim()) newErrors.country = 'Country is required';
-    if (!formData.message.trim()) newErrors.message = 'Message is required';
+  if (!formData.subject.trim()) newErrors.subject = 'Subject is required';
+  if (!formData.message.trim()) newErrors.message = 'Message is required';
 
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
@@ -74,24 +77,27 @@ const ContactForm = ({ className = '', initialProductInterest = '', hideProductI
     setSubmitStatus('idle');
 
     try {
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      
-      // Here you would typically send the data to your backend
-      console.log('Form submitted:', formData);
-      
-      setSubmitStatus('success');
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        country: '',
-        company: '',
-        productInterest: '',
-        message: '',
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
       });
+      if (res.ok) {
+        setSubmitStatus('success');
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          country: '',
+          company: '',
+          productInterest: '',
+          subject: '',
+          message: '',
+        });
+      } else {
+        setSubmitStatus('error');
+      }
     } catch (error) {
-      console.error('Error submitting form:', error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
@@ -131,7 +137,25 @@ const ContactForm = ({ className = '', initialProductInterest = '', hideProductI
       )}
 
       {/* Form Fields */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {/* Subject */}
+        <div className="md:col-span-2">
+          <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
+            Subject *
+          </label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            value={formData.subject}
+            onChange={handleChange}
+            className={`${inputClasses} ${errors.subject ? errorClasses : ''}`}
+            placeholder="Enter the subject of your message"
+          />
+          {errors.subject && (
+            <p className="mt-1 text-sm text-red-600">{errors.subject}</p>
+          )}
+        </div>
         {/* Name */}
         <div>
           <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">

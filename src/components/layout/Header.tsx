@@ -52,11 +52,11 @@ const Header = () => {
           <div className="flex flex-wrap items-center gap-4">
             <div className="flex items-center gap-1">
               <Phone size={14} />
-              <span>+91-XXXXXXXXXX</span>
+              <span>+91-8238824463</span>
             </div>
             <div className="flex items-center gap-1">
               <Mail size={14} />
-              <span>info@zebaenterprise.com</span>
+              <span>info@zeba-enterprise.com</span>
             </div>
             <div className="flex items-center gap-1">
               <MapPin size={14} />

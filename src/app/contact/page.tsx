@@ -7,7 +7,7 @@ export const metadata: Metadata = generateSEOMetadata({
   title: 'Contact Us - Get in Touch | Zeba Enterprise',
   description: 'Contact Zeba Enterprise for international trade inquiries, export-import services, and business collaboration. Get quotes, samples, and expert consultation.',
   keywords: 'contact zeba enterprise, international trade inquiry, export import contact, business inquiry, get quote, trade consultation, ahmedabad import export',
-  canonical: 'https://zebaenterprise.com/contact',
+  canonical: 'https://zeba-enterprise.com/contact',
 });
 
 const ContactPage = () => {
@@ -19,8 +19,8 @@ const ContactPage = () => {
     mainEntity: {
       '@type': 'Organization',
       name: 'Zeba Enterprise',
-      telephone: '+91-XXXXXXXXXX',
-      email: 'info@zebaenterprise.com',
+      telephone: '+91-8238824463',
+      email: 'info@zeba-enterprise.com',
       address: {
         '@type': 'PostalAddress',
         streetAddress: '[Placeholder Address]',
@@ -35,15 +35,15 @@ const ContactPage = () => {
     {
       icon: <Phone className="text-primary" size={24} />,
       title: 'Phone',
-      primary: '+91-XXXXXXXXXX',
-      secondary: '+91-YYYYYYYYY',
+      primary: '+91-8238824463',
+      secondary: '+91-8238824463',
       description: 'Call us for immediate assistance'
     },
     {
       icon: <Mail className="text-primary" size={24} />,
       title: 'Email',
-      primary: 'info@zebaenterprise.com',
-      secondary: 'sales@zebaenterprise.com',
+      primary: 'info@zeba-enterprise.com',
+      secondary: 'sales@zeba-enterprise.com',
       description: 'Send us your inquiries anytime'
     },
     {
@@ -65,26 +65,26 @@ const ContactPage = () => {
   const departments = [
     {
       name: 'Sales & Exports',
-      email: 'sales@zebaenterprise.com',
-      phone: '+91-XXXXXXXXXX',
+      email: 'sales@zeba-enterprise.com',
+      phone: '+91-8238824463',
       description: 'For product inquiries and export orders'
     },
     {
       name: 'Import Services',
-      email: 'imports@zebaenterprise.com',
-      phone: '+91-YYYYYYYYY',
+      email: 'imports@zeba-enterprise.com',
+      phone: '+91-8238824463',
       description: 'For import representation and market entry'
     },
     {
       name: 'Sourcing & Procurement',
-      email: 'sourcing@zebaenterprise.com',
-      phone: '+91-ZZZZZZZZZ',
+      email: 'sourcing@zeba-enterprise.com',
+      phone: '+91-8238824463',
       description: 'For supplier sourcing and procurement'
     },
     {
       name: 'Customer Support',
-      email: 'support@zebaenterprise.com',
-      phone: '+91-AAAAAAAAA',
+      email: 'support@zeba-enterprise.com',
+      phone: '+91-8238824463',
       description: 'For general support and assistance'
     }
   ];
@@ -206,15 +206,15 @@ const ContactPage = () => {
                     </div>
                     <div className="flex items-center gap-3">
                       <Phone className="text-primary" size={16} />
-                      <span className="text-gray-600">+91-XXXXXXXXXX</span>
+                      <span className="text-gray-600">+91-8238824463</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <Mail className="text-primary" size={16} />
-                      <span className="text-gray-600">info@zebaenterprise.com</span>
+                      <span className="text-gray-600">info@zeba-enterprise.com</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <Globe className="text-primary" size={16} />
-                      <span className="text-gray-600">www.zebaenterprise.com</span>
+                      <span className="text-gray-600">www.zeba-enterprise.com</span>
                     </div>
                   </div>
                 </div>
@@ -291,7 +291,7 @@ const ContactPage = () => {
             <div className="text-center mt-12">
               <p className="text-gray-600 mb-4">Don&apos;t see your question answered?</p>
               <a 
-                href="mailto:info@zebaenterprise.com" 
+                href="mailto:info@zeba-enterprise.com" 
                 className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-colors"
               >
                 <Mail size={20} />
@@ -311,14 +311,14 @@ const ContactPage = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <a 
-                  href="tel:+91-XXXXXXXXXX" 
+                  href="tel:+91-8238824463" 
                   className="flex items-center gap-2 bg-secondary text-secondary-foreground px-6 py-3 rounded-lg font-semibold hover:bg-secondary/90 transition-colors"
                 >
                   <Phone size={20} />
-                  Emergency: +91-XXXXXXXXXX
+                  Emergency: +91-8238824463
                 </a>
                 <a 
-                  href="https://wa.me/91XXXXXXXXXX" 
+                  href="https://wa.me/918238824463" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"

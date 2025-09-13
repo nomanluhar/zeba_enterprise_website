@@ -22,7 +22,7 @@ export const metadata: Metadata = generateSEOMetadata({
   title: 'Our Services - Import Export Solutions | Zeba Enterprise',
   description: 'Comprehensive import-export services including export services, import agent, sourcing agent, and trade consultation. Professional international trade solutions with quality assurance.',
   keywords: 'export services, import agent, sourcing agent, trade consultation, international trade services, logistics, quality assurance, documentation, customs clearance',
-  canonical: 'https://zebaenterprise.com/services',
+  canonical: 'https://zeba-enterprise.com/services',
 });
 
 const ServicesPage = () => {
@@ -30,22 +30,22 @@ const ServicesPage = () => {
     {
       name: 'Export Services',
       description: 'Comprehensive export solutions for Indian products to global markets',
-      url: 'https://zebaenterprise.com/services#export',
+      url: 'https://zeba-enterprise.com/services#export',
     },
     {
       name: 'Import Agent Services',
       description: 'Import representation and market entry solutions for international companies',
-      url: 'https://zebaenterprise.com/services#import',
+      url: 'https://zeba-enterprise.com/services#import',
     },
     {
       name: 'Sourcing Agent Services',
       description: 'Professional sourcing and supplier identification services',
-      url: 'https://zebaenterprise.com/services#sourcing',
+      url: 'https://zeba-enterprise.com/services#sourcing',
     },
     {
       name: 'Trade Consultation',
       description: 'Expert guidance and consultation for international trade expansion',
-      url: 'https://zebaenterprise.com/services#consultation',
+      url: 'https://zeba-enterprise.com/services#consultation',
     },
   ];
 

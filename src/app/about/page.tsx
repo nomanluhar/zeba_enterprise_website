@@ -7,7 +7,7 @@ export const metadata: Metadata = generateSEOMetadata({
   title: 'About Us - Zeba Enterprise | Leading Import Export Company',
   description: 'Learn about Zeba Enterprise, a leading import-export company with 15+ years of experience in international trade. Discover our mission, vision, values, and commitment to excellence.',
   keywords: 'about zeba enterprise, import export company history, international trade experience, company profile, business background, trade expertise',
-  canonical: 'https://zebaenterprise.com/about',
+  canonical: 'https://zeba-enterprise.com/about',
 });
 
 const AboutPage = () => {

@@ -20,7 +20,7 @@ export function generateSEOMetadata({
 }: SEOHeadProps): Metadata {
   const siteName = 'Zeba Enterprise';
   const fullTitle = title.includes(siteName) ? title : `${title} | ${siteName}`;
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://zebaenterprise.com';
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://zeba-enterprise.com';
 
   return {
     title: fullTitle,
@@ -73,8 +73,8 @@ export const generateBusinessSchema = () => ({
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'Zeba Enterprise',
-  url: 'https://zebaenterprise.com',
-  logo: 'https://zebaenterprise.com/images/logo.png',
+  url: 'https://zeba-enterprise.com',
+  logo: 'https://zeba-enterprise.com/images/logo.png',
   description: 'Leading import-export company specializing in connecting global markets with premium Indian products.',
   address: {
     '@type': 'PostalAddress',
@@ -85,15 +85,15 @@ export const generateBusinessSchema = () => ({
   },
   contactPoint: {
     '@type': 'ContactPoint',
-    telephone: '+91-XXXXXXXXXX',
+    telephone: '+91-8238824463',
     contactType: 'Customer Service',
-    email: 'info@zebaenterprise.com',
+    email: 'info@zeba-enterprise.com',
     availableLanguage: ['English', 'Hindi', 'Gujarati'],
   },
   sameAs: [
-    'https://www.linkedin.com/company/zebaenterprise',
-    'https://www.facebook.com/zebaenterprise',
-    'https://twitter.com/zebaenterprise',
+    'https://www.linkedin.com/company/zeba-enterprise',
+    'https://www.facebook.com/zeba-enterprise',
+    'https://twitter.com/zeba-enterprise',
   ],
   areaServed: 'Worldwide',
   serviceType: ['Import Services', 'Export Services', 'International Trade Consultation'],
@@ -111,7 +111,7 @@ export const generateServiceSchema = (service: {
   provider: {
     '@type': 'Organization',
     name: 'Zeba Enterprise',
-    url: 'https://zebaenterprise.com',
+    url: 'https://zeba-enterprise.com',
   },
   url: service.url,
   areaServed: 'Worldwide',
@@ -133,7 +133,7 @@ export const generateProductSchema = (product: {
   manufacturer: {
     '@type': 'Organization',
     name: 'Zeba Enterprise',
-    url: 'https://zebaenterprise.com',
+    url: 'https://zeba-enterprise.com',
   },
   offers: {
     '@type': 'Offer',

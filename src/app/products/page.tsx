@@ -10,7 +10,7 @@ export const metadata: Metadata = generateSEOMetadata({
   title: 'Products - Premium Indian Products for Export | Zeba Enterprise',
   description: 'Explore our wide range of premium Indian products including textiles, handicrafts, spices, furniture, electronics, and machinery for international export markets.',
   keywords: 'Indian products export, textiles export, handicrafts export, spices export, furniture export, electronics export, machinery export, quality products, international trade',
-  canonical: 'https://zebaenterprise.com/products',
+  canonical: 'https://zeba-enterprise.com/products',
 });
 
 const ProductsPage = () => {

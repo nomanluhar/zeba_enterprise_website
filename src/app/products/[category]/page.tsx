@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
     title: `${category.name} - Premium Products | Zeba Enterprise`,
     description: `Explore our extensive range of ${category.name.toLowerCase()} including premium quality products for international export. ${category.description}`,
     keywords: `${category.name}, ${category.name} export, ${category.name} India, quality ${category.name}, international trade`,
-    canonical: `https://zebaenterprise.com/products/${params.category}`,
+    canonical: `https://zeba-enterprise.com/products/${params.category}`,
   });
 }
 

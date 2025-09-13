@@ -49,7 +49,7 @@ export async function generateMetadata({ params }: {
     title: `${product.name} - ${category.name} | Zeba Enterprise`,
     description: `${product.description.substring(0, 160)}...`,
     keywords: `${product.name}, ${category.name}, ${product.name} export, ${product.name} India, quality ${product.name}`,
-    canonical: `https://zebaenterprise.com/products/${params.category}/${params.product}`,
+    canonical: `https://zeba-enterprise.com/products/${params.category}/${params.product}`,
   });
 }
 
@@ -172,7 +172,7 @@ const ProductPage = ({ params }: {
                   </p>
                 </div>
 
-                {/* Price */}
+                {/* Price
                 {product.price && (
                   <div className="bg-gray-50 p-6 rounded-lg">
                     <h3 className="text-lg font-bold text-gray-900 mb-2">Pricing</h3>
@@ -181,14 +181,14 @@ const ProductPage = ({ params }: {
                     </div>
                     <div className="text-sm text-gray-600">{product.price.unit}</div>
                   </div>
-                )}
+                )} */}
 
                 {/* Key Info */}
                 <div className="grid grid-cols-2 gap-6">
-                  <div>
+                  {/* <div>
                     <h4 className="font-semibold text-gray-900 mb-2">MOQ</h4>
                     <p className="text-gray-600">{product.moq}</p>
-                  </div>
+                  </div> */}
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Lead Time</h4>
                     <p className="text-gray-600">{product.leadTime}</p>
