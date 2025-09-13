@@ -85,12 +85,13 @@ const Header = () => {
           <div className="flex justify-between items-center h-13 lg:h-15">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">Z</span>
+              <div className="w-13 h-13 rounded-lg flex items-center justify-center overflow-hidden">
+                <img src="/zeba_enterprise_logo.png" alt="Zeba Enterprise Logo" className="object-contain w-full h-full" />
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-bold text-primary">
-                  Zeba Enterprise
+                <span className="text-xl font-bold ">
+                  <span className="text-primary">Zeba</span>
+                  <span className="text-secondary">&nbsp;Enterprise</span>
                 </span>
                 <span className="text-xs text-muted-foreground">
                   Import • Export • Global Trade

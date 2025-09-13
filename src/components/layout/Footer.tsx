@@ -38,8 +38,8 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">Z</span>
+              <div className="w-13 h-13 rounded-lg flex items-center justify-center overflow-hidden">
+                <img src="/zeba_enterprise_logo.png" alt="Zeba Enterprise Logo" className="object-contain w-full h-full" />
               </div>
               <div className="flex flex-col">
                 <span className="text-xl font-bold">Zeba Enterprise</span>

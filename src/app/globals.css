@@ -3,7 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #1a1a1a;
-  --primary: #1e3a8a;
+  --primary: #14b8a6;
   --primary-foreground: #ffffff;
   --secondary: #f97316;
   --secondary-foreground: #ffffff;
@@ -12,7 +12,7 @@
   --accent: #f1f5f9;
   --accent-foreground: #0f172a;
   --border: #e2e8f0;
-  --ring: #1e3a8a;
+  --ring: #14b8a6;
 }
 
 @theme inline {

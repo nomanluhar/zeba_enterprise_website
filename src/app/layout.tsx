@@ -44,6 +44,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <StructuredData data={businessSchema} />
       </head>
       <body
