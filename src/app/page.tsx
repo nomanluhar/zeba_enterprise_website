@@ -1,10 +1,10 @@
-import HeroSection from '@/components/sections/home/HeroSection';
-import AboutSection from '@/components/sections/home/AboutSection';
-import ServicesSection from '@/components/sections/home/ServicesSection';
-import ProductCategoriesSection from '@/components/sections/home/ProductCategoriesSection';
-import WhyChooseUsSection from '@/components/sections/home/WhyChooseUsSection';
-import CertificationsSection from '@/components/sections/home/CertificationsSection';
-import CTASection from '@/components/sections/home/CTASection';
+import HeroSection from "@/components/sections/home/HeroSection";
+import AboutSection from "@/components/sections/home/AboutSection";
+import ServicesSection from "@/components/sections/home/ServicesSection";
+import ProductCategoriesSection from "@/components/sections/home/ProductCategoriesSection";
+import WhyChooseUsSection from "@/components/sections/home/WhyChooseUsSection";
+import CertificationsSlider from "@/components/sections/home/CertificationsSlider";
+import CTASection from "@/components/sections/home/CTASection";
 
 const HomePage = () => (
   <div className="min-h-screen">
@@ -13,7 +13,7 @@ const HomePage = () => (
     <ServicesSection />
     <ProductCategoriesSection />
     <WhyChooseUsSection />
-    <CertificationsSection />
+    <CertificationsSlider />
     <CTASection />
   </div>
 );

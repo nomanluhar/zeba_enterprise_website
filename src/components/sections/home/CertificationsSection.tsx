@@ -1,8 +1,20 @@
-import { CheckCircle } from 'lucide-react';
-import React from 'react';
+import { CheckCircle } from "lucide-react";
+import React from "react";
 
 const certifications = [
-  'DGFT', 'FIEO', 'Chamber of Commerce', 'MSME', 'ISO 9001', 'Export Excellence'
+  "DGFT",
+  "APEDA",
+  "MSME",
+  "FIEO",
+  "FICCI",
+  "GCCI",
+  "UDYOG AADHAR",
+  " GST",
+  "FDA",
+  "SPICE BOARD",
+  "HALAL",
+  "GMP",
+  "EAEI Training",
 ];
 
 const CertificationsSection = () => (
@@ -13,12 +25,13 @@ const CertificationsSection = () => (
           Our Certifications
         </h2>
         <p className="text-base text-gray-600 max-w-2xl mx-auto">
-          We maintain the highest standards of quality and compliance with international certifications.
+          We maintain the highest standards of quality and compliance with
+          international certifications.
         </p>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
         {certifications.map((cert, index) => (
-          <div 
+          <div
             key={index}
             className="bg-gray-50 rounded-lg p-4 text-center hover:shadow-md transition-shadow"
           >
