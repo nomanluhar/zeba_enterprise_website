@@ -40,797 +40,1086 @@ export interface ProductCategory {
 
 export const productCategories: ProductCategory[] = [
   {
-    id: 'textiles',
-    name: 'Textiles & Garments',
-    slug: 'textiles-garments',
-    description: 'High-quality fabrics, garments, and textile products manufactured with precision and care.',
-    image: '/images/textiles/main-page-1.jpg',
-    features: ['Premium Fabrics', 'Export Quality', 'Custom Designs', 'Bulk Orders'],
-    productCount: 12
+    id: "textiles",
+    name: "Textiles & Garments",
+    slug: "textiles-garments",
+    description:
+      "High-quality fabrics, garments, and textile products manufactured with precision and care.",
+    image: "/images/textiles/main-page-1.jpg",
+    features: [
+      "Premium Fabrics",
+      "Export Quality",
+      "Custom Designs",
+      "Bulk Orders",
+    ],
+    productCount: 12,
   },
   {
-    id: 'leathers',
-    name: 'Leather Products',
-    slug: 'leather-products',
-    description: 'Premium leather products crafted with precision and care.',
-    image: '/images/leather/main-page-1.jpg',
-    features: ['Genuine Leather', 'Handcrafted', 'Durable', 'Stylish Designs'],
-    productCount: 18
+    id: "leathers",
+    name: "Leather Products",
+    slug: "leather-products",
+    description: "Premium leather products crafted with precision and care.",
+    image: "/images/leather/main-page-1.jpg",
+    features: ["Genuine Leather", "Handcrafted", "Durable", "Stylish Designs"],
+    productCount: 18,
   },
   {
-    id: 'furniture',
-    name: 'Furniture',
-    slug: 'furniture',
-    description: 'Elegant wooden and metal furniture combining traditional craftsmanship with modern designs.',
-    image: '/images/furniture/main-page-1.jpg',
-    features: ['Solid Wood', 'Custom Designs', 'Durable', 'Export Packaging'],
-    productCount: 15
+    id: "furniture",
+    name: "Furniture",
+    slug: "furniture",
+    description:
+      "Elegant wooden and metal furniture combining traditional craftsmanship with modern designs.",
+    image: "/images/furniture/main-page-1.jpg",
+    features: ["Solid Wood", "Custom Designs", "Durable", "Export Packaging"],
+    productCount: 15,
   },
   {
-    id: 'imitation-jewellery',
-    name: 'Imitation Jewellery',
-    slug: 'imitation-jewellery',
-    description: 'Trendy and stylish imitation jewellery crafted with precision and care.',
-    image: '/images/imitation-jewellery/main-page-1.jpg',
-    features: ['Trendy Designs', 'Lightweight', 'Affordable', 'Durable'],
-    productCount: 25
+    id: "imitation-jewellery",
+    name: "Imitation Jewellery",
+    slug: "imitation-jewellery",
+    description:
+      "Trendy and stylish imitation jewellery crafted with precision and care.",
+    image: "/images/imitation-jewellery/main-page-1.jpg",
+    features: ["Trendy Designs", "Lightweight", "Affordable", "Durable"],
+    productCount: 25,
   },
   {
-    id: 'handicrafts',
-    name: 'Handicrafts',
-    slug: 'handicrafts',
-    description: 'Traditional Indian handicrafts showcasing rich cultural heritage and artisan craftsmanship.',
-    image: '/images/handicrafts/main-page-1.jpg',
-    features: ['Handmade', 'Traditional Designs', 'Eco-Friendly', 'Cultural Authentic'],
-    productCount: 18
+    id: "handicrafts",
+    name: "Handicrafts",
+    slug: "handicrafts",
+    description:
+      "Traditional Indian handicrafts showcasing rich cultural heritage and artisan craftsmanship.",
+    image: "/images/handicrafts/main-page-1.jpg",
+    features: [
+      "Handmade",
+      "Traditional Designs",
+      "Eco-Friendly",
+      "Cultural Authentic",
+    ],
+    productCount: 18,
   },
   {
-    id: 'copper-brass-items',
-    name: 'Copper & Brass Items',
-    slug: 'copper-brass-items',
-    description: 'Exquisite copper and brass items showcasing traditional craftsmanship.',
-    image: '/images/copper-brass-items/main-page-1.jpg',
-    features: ['Handcrafted', 'Durable', 'Antique Finish', 'Custom Designs'],
-    productCount: 20
+    id: "copper-brass-items",
+    name: "Copper & Brass Items",
+    slug: "copper-brass-items",
+    description:
+      "Exquisite copper and brass items showcasing traditional craftsmanship.",
+    image: "/images/copper-brass-items/main-page-1.jpg",
+    features: ["Handcrafted", "Durable", "Antique Finish", "Custom Designs"],
+    productCount: 20,
   },
   {
-    id: 'packaging-products',
-    name: 'Packaging Products',
-    slug: 'packaging-products',
-    description: 'High-quality packaging products designed to meet the needs of various industries.',
-    image: '/images/packaging-products/main-page-1.jpg',
-    features: ['Durable Materials', 'Custom Sizes', 'Eco-Friendly Options', 'Quality Assurance'],
-    productCount: 25
+    id: "packaging-products",
+    name: "Packaging Products",
+    slug: "packaging-products",
+    description:
+      "High-quality packaging products designed to meet the needs of various industries.",
+    image: "/images/packaging-products/main-page-1.jpg",
+    features: [
+      "Durable Materials",
+      "Custom Sizes",
+      "Eco-Friendly Options",
+      "Quality Assurance",
+    ],
+    productCount: 25,
   },
   {
-  id: 'spices-food',
-  name: 'Spices & Food Products',
-  slug: 'spices-food-products',
-  description: 'A wide range of Indian groceries, premium spices, aromatic teas & coffees, and natural food flavours — all sourced from trusted farms and producers to ensure authentic taste and quality.',
-  image: '/images/spices-food-products/main-page-1.jpg',
-  features: [
-    'Groceries: Rice, Pulses & Dry Fruits',
-    'Authentic Indian Spices',
-    'Tea & Coffee Varieties',
-    'Natural Food Flavours & Essences',
-    'Farm-Sourced & Quality Tested'
-  ],
-  productCount: 25
-}
+    id: "spices-food",
+    name: "Spices & Food Products",
+    slug: "spices-food-products",
+    description:
+      "A wide range of Indian groceries, premium spices, aromatic teas & coffees, and natural food flavours — all sourced from trusted farms and producers to ensure authentic taste and quality.",
+    image: "/images/spices-food-products/main-page-1.jpg",
+    features: [
+      "Groceries: Rice, Pulses & Dry Fruits",
+      "Authentic Indian Spices",
+      "Tea & Coffee Varieties",
+      "Natural Food Flavours & Essences",
+      "Farm-Sourced & Quality Tested",
+    ],
+    productCount: 25,
+  },
 ];
 
 export const products: Product[] = [
   // Spices & Food Products
   {
-  id: 'groceries',
-  name: 'Groceries',
-  category: 'Food Products',
-  categoryId: 'spices-food',
-  image: '/images/hero-page-sliders/hero-1.jpg',
-  images: ['/images/hero-page-sliders/hero-1.jpg', '/images/hero-page-sliders/hero-2.jpg', '/images/hero-page-sliders/hero-3.jpg'],
-  shortDescription: 'Premium quality groceries including rice, wheat, pulses, dry fruits, and sweeteners.',
-  description: 'Our Groceries collection features carefully sourced essentials such as Basmati rice, wheat flour, protein-rich pulses, and premium dry fruits. We also offer natural sweeteners like sugar and jaggery. These products are hygienically processed, ensuring freshness, taste, and nutritional value for households and businesses alike.',
-  price: {
-    min: 1,
-    max: 100,
-    currency: 'USD',
-    unit: 'per kg / pack'
-  },
-  specifications: {
-    'Products': 'Basmati Rice, Wheat Flour, Pulses, Dry Fruits, Sugar, Jaggery',
-    'Quality': 'Premium grade, hygienically processed',
-    'Packaging': 'Moisture-proof, food-safe packaging',
-    'Shelf Life': '6–12 months'
-  },
-  features: [
-    'Farm-fresh quality',
-    'Nutrient-rich essentials',
-    'Hygienically packed',
-    'Bulk supply available'
-  ],
-  moq: '500 kg',
-  leadTime: '15-20 days',
-  origin: 'India',
-  packaging: ['Plastic pouches', 'Jute bags', 'Custom bulk packaging'],
-  applications: ['Households', 'Hotels & Restaurants', 'Retail Stores', 'Export supply'],
-  certifications: ['FSSAI Certified', 'ISO 22000']
+    id: "groceries",
+    name: "Groceries",
+    category: "Food Products",
+    categoryId: "spices-food",
+    image: "/images/spices-food-products/groceries/image-1.jpg",
+    images: [
+      "/images/spices-food-products/groceries/image-1.jpg",
+      "/images/spices-food-products/groceries/image-2.jpg",
+      "/images/spices-food-products/groceries/image-3.jpg",
+      "/images/spices-food-products/groceries/image-4.jpg",
+      "/images/spices-food-products/groceries/image-5.jpg",
+    ],
+    shortDescription:
+      "Premium quality groceries including rice, wheat, pulses, dry fruits, and sweeteners.",
+    description:
+      "Our Groceries collection features carefully sourced essentials such as Basmati rice, wheat flour, protein-rich pulses, and premium dry fruits. We also offer natural sweeteners like sugar and jaggery. These products are hygienically processed, ensuring freshness, taste, and nutritional value for households and businesses alike.",
+    price: {
+      min: 1,
+      max: 100,
+      currency: "USD",
+      unit: "per kg / pack",
+    },
+    specifications: {
+      Products: "Basmati Rice, Wheat Flour, Pulses, Dry Fruits, Sugar, Jaggery",
+      Quality: "Premium grade, hygienically processed",
+      Packaging: "Moisture-proof, food-safe packaging",
+      "Shelf Life": "6–12 months",
+    },
+    features: [
+      "Farm-fresh quality",
+      "Nutrient-rich essentials",
+      "Hygienically packed",
+      "Bulk supply available",
+    ],
+    moq: "500 kg",
+    leadTime: "15-20 days",
+    origin: "India",
+    packaging: ["Plastic pouches", "Jute bags", "Custom bulk packaging"],
+    applications: [
+      "Households",
+      "Hotels & Restaurants",
+      "Retail Stores",
+      "Export supply",
+    ],
+    certifications: ["FSSAI Certified", "ISO 22000"],
   },
   {
-    id: 'spices',
-    name: 'Spices',
-    category: 'Food Products',
-    categoryId: 'spices-food',
-    image: '/images/hero-page-sliders/hero-1.jpg',
-    images: ['/images/hero-page-sliders/hero-1.jpg', '/images/hero-page-sliders/hero-2.jpg', '/images/hero-page-sliders/hero-3.jpg'],
-    shortDescription: 'Aromatic Indian spices including turmeric, chili, pepper, cumin, fennel, and garam masala.',
-    description: 'Our Spices collection brings the rich flavors of India to your kitchen. From golden turmeric and fiery chili to aromatic black pepper, cumin, and fennel, every spice is handpicked and quality tested. We also offer blended spices like garam masala, perfect for enhancing traditional and modern recipes.',
+    id: "spices",
+    name: "Spices",
+    category: "Food Products",
+    categoryId: "spices-food",
+    image: "/images/spices-food-products/spices/image-1.jpg",
+    images: [
+      "/images/spices-food-products/spices/image-1.jpg",
+      "/images/spices-food-products/spices/image-2.jpg",
+      "/images/spices-food-products/spices/image-3.jpg",
+      "/images/spices-food-products/spices/image-4.jpg",
+      "/images/spices-food-products/spices/image-5.jpg",
+    ],
+    shortDescription:
+      "Aromatic Indian spices including turmeric, chili, pepper, cumin, fennel, and garam masala.",
+    description:
+      "Our Spices collection brings the rich flavors of India to your kitchen. From golden turmeric and fiery chili to aromatic black pepper, cumin, and fennel, every spice is handpicked and quality tested. We also offer blended spices like garam masala, perfect for enhancing traditional and modern recipes.",
     price: {
       min: 2,
       max: 80,
-      currency: 'USD',
-      unit: 'per kg / pack'
+      currency: "USD",
+      unit: "per kg / pack",
     },
     specifications: {
-      'Products': 'Turmeric, Chili, Black Pepper, Cumin, Fennel, Garam Masala',
-      'Form': 'Whole & Powdered',
-      'Purity': '100% natural, no additives',
-      'Shelf Life': '12–18 months'
+      Products: "Turmeric, Chili, Black Pepper, Cumin, Fennel, Garam Masala",
+      Form: "Whole & Powdered",
+      Purity: "100% natural, no additives",
+      "Shelf Life": "12–18 months",
     },
     features: [
-      'Rich aroma & taste',
-      '100% natural spices',
-      'Quality tested & certified',
-      'Export-ready packaging'
+      "Rich aroma & taste",
+      "100% natural spices",
+      "Quality tested & certified",
+      "Export-ready packaging",
     ],
-    moq: '200 kg',
-    leadTime: '20-25 days',
-    origin: 'India',
-    packaging: ['Pouches', 'Glass jars', 'Bulk sacks'],
-    applications: ['Cooking', 'Food processing', 'Export supply', 'Retail stores'],
-    certifications: ['FSSAI Certified', 'ISO 9001', 'Organic Certification (available)']
+    moq: "200 kg",
+    leadTime: "20-25 days",
+    origin: "India",
+    packaging: ["Pouches", "Glass jars", "Bulk sacks"],
+    applications: [
+      "Cooking",
+      "Food processing",
+      "Export supply",
+      "Retail stores",
+    ],
+    certifications: [
+      "FSSAI Certified",
+      "ISO 9001",
+      "Organic Certification (available)",
+    ],
   },
   {
-    id: 'tea-coffee',
-    name: 'Tea & Coffee',
-    category: 'Food Products',
-    categoryId: 'spices-food',
-    image: '/images/hero-page-sliders/hero-1.jpg',
-    images: ['/images/hero-page-sliders/hero-1.jpg', '/images/hero-page-sliders/hero-2.jpg', '/images/hero-page-sliders/hero-3.jpg'],
-    shortDescription: 'Finest Indian teas and aromatic coffees sourced from renowned plantations.',
-    description: 'Our Tea & Coffee collection includes Assam and Darjeeling teas, soothing green tea, flavorful masala chai, and instant coffee. Each product is sourced from reputed plantations and processed to preserve its natural aroma and taste. Perfect for both retail and wholesale, our range caters to everyday consumption as well as premium gifting.',
+    id: "tea-coffee",
+    name: "Tea & Coffee",
+    category: "Food Products",
+    categoryId: "spices-food",
+   image: "/images/spices-food-products/tea-and-coffee/image-1.jpg",
+    images: [
+      "/images/spices-food-products/tea-and-coffee/image-1.jpg",
+      "/images/spices-food-products/tea-and-coffee/image-2.jpg",
+      "/images/spices-food-products/tea-and-coffee/image-3.jpg",
+      "/images/spices-food-products/tea-and-coffee/image-4.jpg",
+      "/images/spices-food-products/tea-and-coffee/image-5.jpg",
+    ],
+    shortDescription:
+      "Finest Indian teas and aromatic coffees sourced from renowned plantations.",
+    description:
+      "Our Tea & Coffee collection includes Assam and Darjeeling teas, soothing green tea, flavorful masala chai, and instant coffee. Each product is sourced from reputed plantations and processed to preserve its natural aroma and taste. Perfect for both retail and wholesale, our range caters to everyday consumption as well as premium gifting.",
     price: {
       min: 3,
       max: 120,
-      currency: 'USD',
-      unit: 'per pack'
+      currency: "USD",
+      unit: "per pack",
     },
     specifications: {
-      'Products': 'Assam Tea, Darjeeling Tea, Green Tea, Masala Chai, Instant Coffee',
-      'Quality': 'Premium plantation-sourced',
-      'Packaging': 'Sealed foil pouches, tins, or bulk cartons',
-      'Shelf Life': '12–24 months'
+      Products:
+        "Assam Tea, Darjeeling Tea, Green Tea, Masala Chai, Instant Coffee",
+      Quality: "Premium plantation-sourced",
+      Packaging: "Sealed foil pouches, tins, or bulk cartons",
+      "Shelf Life": "12–24 months",
     },
     features: [
-      'Strong aroma & flavor',
-      'Direct from plantations',
-      'Variety of blends',
-      'Retail & gifting options'
+      "Strong aroma & flavor",
+      "Direct from plantations",
+      "Variety of blends",
+      "Retail & gifting options",
     ],
-    moq: '1000 packs',
-    leadTime: '20-30 days',
-    origin: 'India',
-    packaging: ['Foil pouches', 'Tea tins', 'Bulk packaging'],
-    applications: ['Retail stores', 'Hotels & Cafes', 'Export markets', 'Gifting'],
-    certifications: ['FSSAI Certified', 'ISO 22000']
+    moq: "1000 packs",
+    leadTime: "20-30 days",
+    origin: "India",
+    packaging: ["Foil pouches", "Tea tins", "Bulk packaging"],
+    applications: [
+      "Retail stores",
+      "Hotels & Cafes",
+      "Export markets",
+      "Gifting",
+    ],
+    certifications: ["FSSAI Certified", "ISO 22000"],
   },
   {
-    id: 'food-flavours',
-    name: 'Food Flavours & Essence',
-    category: 'Food Products',
-    categoryId: 'spices-food',
-    image: '/images/hero-page-sliders/hero-1.jpg',
-    images: ['/images/hero-page-sliders/hero-1.jpg', '/images/hero-page-sliders/hero-2.jpg', '/images/hero-page-sliders/hero-3.jpg'],
-    shortDescription: 'Concentrated food flavors and essences including vanilla, chocolate, fruit, and spice blends.',
-    description: 'Our Food Flavours & Essences are crafted to enhance bakery, confectionery, beverages, and culinary creations. The range includes classic vanilla, chocolate, and fruit flavors like pineapple, mango, and strawberry, along with traditional Indian options such as kesar, rose, pan, and elaichi. These high-quality essences are food-grade, long-lasting, and available in customizable packaging.',
+    id: "food-flavours",
+    name: "Food Flavours & Essence",
+    category: "Food Products",
+    categoryId: "spices-food",
+   image: "/images/spices-food-products/essence/image-1.png",
+    images: [
+      "/images/spices-food-products/essence/image-1.png",
+    ],
+    shortDescription:
+      "Concentrated food flavors and essences including vanilla, chocolate, fruit, and spice blends.",
+    description:
+      "Our Food Flavours & Essences are crafted to enhance bakery, confectionery, beverages, and culinary creations. The range includes classic vanilla, chocolate, and fruit flavors like pineapple, mango, and strawberry, along with traditional Indian options such as kesar, rose, pan, and elaichi. These high-quality essences are food-grade, long-lasting, and available in customizable packaging.",
     price: {
       min: 1,
       max: 50,
-      currency: 'USD',
-      unit: 'per bottle'
+      currency: "USD",
+      unit: "per bottle",
     },
     specifications: {
-      'Products': 'Vanilla, Chocolate, Pineapple, Mango, Kesar, Rose, Strawberry, Pan, Elaichi',
-      'Form': 'Liquid essence, concentrated',
-      'Quality': 'Food-grade, long shelf life',
-      'Shelf Life': '18–24 months'
+      Products:
+        "Vanilla, Chocolate, Pineapple, Mango, Kesar, Rose, Strawberry, Pan, Elaichi",
+      Form: "Liquid essence, concentrated",
+      Quality: "Food-grade, long shelf life",
+      "Shelf Life": "18–24 months",
     },
     features: [
-      'Intense aroma & flavor',
-      'Wide variety of options',
-      'Food-grade quality',
-      'Custom packaging available'
+      "Intense aroma & flavor",
+      "Wide variety of options",
+      "Food-grade quality",
+      "Custom packaging available",
     ],
-    moq: '500 bottles',
-    leadTime: '20-25 days',
-    origin: 'India',
-    packaging: ['Glass bottles', 'Plastic bottles', 'Bulk drums'],
-    applications: ['Bakeries', 'Confectionery', 'Beverages', 'Food processing'],
-    certifications: ['FSSAI Certified', 'ISO 22000']
+    moq: "500 bottles",
+    leadTime: "20-25 days",
+    origin: "India",
+    packaging: ["Glass bottles", "Plastic bottles", "Bulk drums"],
+    applications: ["Bakeries", "Confectionery", "Beverages", "Food processing"],
+    certifications: ["FSSAI Certified", "ISO 22000"],
   },
 
   // Textiles & Garments
   {
-    id: 'bed-sheets',
-    name: 'Premium Bed Sheets',
-    category: 'Textiles & Garments',
-    categoryId: 'textiles',
-    image: '/images/hero-page-sliders/hero-1.jpg',
-    images: ['/images/hero-page-sliders/hero-1.jpg', '/images/hero-page-sliders/hero-2.jpg', '/images/hero-page-sliders/hero-3.jpg'],
-    shortDescription: '100% premium bed sheets with superior comfort and durability.',
-    description: 'Our Premium Bed Sheets are crafted from the finest 100% cotton fibers, offering exceptional softness, breathability, and durability. Available in various sizes and colors, these bed sheets provide ultimate comfort for a perfect night\'s sleep.',
+    id: "bed-sheets",
+    name: "Premium Bed Sheets",
+    category: "Textiles & Garments",
+    categoryId: "textiles",
+    image: "/images/textiles/bed-sheets/image-1.webp",
+    images: [
+      "/images/textiles/bed-sheets/image-1.webp",
+      "/images/textiles/bed-sheets/image-2.png",
+      "/images/textiles/bed-sheets/image-3.jpg",
+      "/images/textiles/bed-sheets/image-4.jpg",
+      "/images/textiles/bed-sheets/image-5.jpg",
+      "/images/textiles/bed-sheets/image-6.jpg",
+    ],
+    shortDescription:
+      "100% premium bed sheets with superior comfort and durability.",
+    description:
+      "Our Premium Bed Sheets are crafted from the finest 100% cotton fibers, offering exceptional softness, breathability, and durability. Available in various sizes and colors, these bed sheets provide ultimate comfort for a perfect night's sleep.",
     price: {
       min: 15,
       max: 35,
-      currency: 'USD',
-      unit: 'per set'
+      currency: "USD",
+      unit: "per set",
     },
     specifications: {
-      'Material': '100% Cotton',
-      'Thread Count': '200-400 TC',
-      'Weave': 'Percale/Sateen',
-      'Sizes': 'Single, Double, Queen, King',
-      'Colors': '20+ color options',
-      'Shrinkage': 'Pre-shrunk, Max 3%',
+      Material: "100% Cotton",
+      "Thread Count": "200-400 TC",
+      Weave: "Percale/Sateen",
+      Sizes: "Single, Double, Queen, King",
+      Colors: "20+ color options",
+      Shrinkage: "Pre-shrunk, Max 3%",
     },
     features: [
-      '100% premium',
-      'Color fast',
-      'Easy care',
-      'Hypoallergenic',
-      'Durable construction'
+      "100% premium",
+      "Color fast",
+      "Easy care",
+      "Hypoallergenic",
+      "Durable construction",
     ],
-    certifications: ['OEKO-TEX Standard 100', 'GOTS (Available)', 'ISO 9001'],
-    moq: '500 sets',
-    leadTime: '20-30 days',
-    origin: 'India',
-    packaging: ['PVC bags', 'Gift boxes', 'Custom packaging available'],
-    applications: ['Home textiles', 'Hotels', 'Hospitals', 'Retail chains']
+    certifications: ["OEKO-TEX Standard 100", "GOTS (Available)", "ISO 9001"],
+    moq: "500 sets",
+    leadTime: "20-30 days",
+    origin: "India",
+    packaging: ["PVC bags", "Gift boxes", "Custom packaging available"],
+    applications: ["Home textiles", "Hotels", "Hospitals", "Retail chains"],
   },
   {
-  id: 'towels',
-  name: 'Premium Towels',
-  category: 'Textiles & Garments',
-  categoryId: 'textiles',
-  image: '/images/hero-page-sliders/hero-2.jpg',
-  images: ['/images/hero-page-sliders/hero-2.jpg', '/images/hero-page-sliders/hero-3.jpg', '/images/hero-page-sliders/hero-1.jpg'],
-  shortDescription: 'Soft, absorbent towels for bath, face, hand, gym, and kids.',
-  description: 'Our Premium Towels are made from 100% cotton with superior absorbency and softness. Available in bath, hand, face, gym, and kids’ sizes, these towels are durable, quick-drying, and gentle on the skin.',
-  price: {
-    min: 5,
-    max: 20,
-    currency: 'USD',
-    unit: 'per piece'
-  },
-  specifications: {
-    'Material': '100% Cotton / Blended options',
-    'GSM': '350-700 GSM',
-    'Sizes': 'Face, Hand, Bath, Gym, Kids',
-    'Colors': '30+ color options',
-    'Shrinkage': 'Pre-shrunk, Max 3%',
-  },
-  features: [
-    'Highly absorbent',
-    'Soft & fluffy texture',
-    'Quick-dry',
-    'Durable stitching',
-    'Skin-friendly'
-  ],
-  certifications: ['OEKO-TEX Standard 100', 'ISO 9001'],
-  moq: '1000 pieces',
-  leadTime: '15-25 days',
-  origin: 'India',
-  packaging: ['Polybags', 'Gift sets', 'Custom packaging available'],
-  applications: ['Hotels', 'Gyms', 'Homes', 'Retail chains']
+    id: "towels",
+    name: "Premium Towels",
+    category: "Textiles & Garments",
+    categoryId: "textiles",
+    image: "/images/textiles/towels/image-1.jpg",
+    images: [
+      "/images/textiles/towels/image-1.jpg",
+      "/images/textiles/towels/image-2.jpg",
+      "/images/textiles/towels/image-3.jpg",
+      "/images/textiles/towels/image-4.jpg",
+      "/images/textiles/towels/image-5.jpg",
+    ],
+    shortDescription:
+      "Soft, absorbent towels for bath, face, hand, gym, and kids.",
+    description:
+      "Our Premium Towels are made from 100% cotton with superior absorbency and softness. Available in bath, hand, face, gym, and kids’ sizes, these towels are durable, quick-drying, and gentle on the skin.",
+    price: {
+      min: 5,
+      max: 20,
+      currency: "USD",
+      unit: "per piece",
+    },
+    specifications: {
+      Material: "100% Cotton / Blended options",
+      GSM: "350-700 GSM",
+      Sizes: "Face, Hand, Bath, Gym, Kids",
+      Colors: "30+ color options",
+      Shrinkage: "Pre-shrunk, Max 3%",
+    },
+    features: [
+      "Highly absorbent",
+      "Soft & fluffy texture",
+      "Quick-dry",
+      "Durable stitching",
+      "Skin-friendly",
+    ],
+    certifications: ["OEKO-TEX Standard 100", "ISO 9001"],
+    moq: "1000 pieces",
+    leadTime: "15-25 days",
+    origin: "India",
+    packaging: ["Polybags", "Gift sets", "Custom packaging available"],
+    applications: ["Hotels", "Gyms", "Homes", "Retail chains"],
   },
   {
-    id: 'ready-made-garments',
-    name: 'Ready-Made Garments',
-    category: 'Textiles & Garments',
-    categoryId: 'textiles',
-    image: '/images/hero-page-sliders/hero-3.jpg',
-    images: ['/images/hero-page-sliders/hero-3.jpg', '/images/hero-page-sliders/hero-1.jpg', '/images/hero-page-sliders/hero-2.jpg'],
-    shortDescription: 'Trendy and comfortable ready-made garments for men and women.',
-    description: 'Our collection of Ready-Made Garments includes T-shirts, shirts, jeans, kurtis, pajamas, and hoodies. Designed with style, comfort, and durability in mind, these garments are crafted using high-quality fabrics and modern stitching techniques.',
+    id: "ready-made-garments",
+    name: "Ready-Made Garments",
+    category: "Textiles & Garments",
+    categoryId: "textiles",
+    image: "/images/textiles/ready-made/image-1.jpg",
+    images: [
+      "/images/textiles/ready-made/image-1.jpg",
+      "/images/textiles/ready-made/image-2.jpg",
+      "/images/textiles/ready-made/image-3.jpg",
+      "/images/textiles/ready-made/image-4.jpg",
+      "/images/textiles/ready-made/image-5.jpg",
+    ],
+    shortDescription:
+      "Trendy and comfortable ready-made garments for men and women.",
+    description:
+      "Our collection of Ready-Made Garments includes T-shirts, shirts, jeans, kurtis, pajamas, and hoodies. Designed with style, comfort, and durability in mind, these garments are crafted using high-quality fabrics and modern stitching techniques.",
     price: {
       min: 8,
       max: 40,
-      currency: 'USD',
-      unit: 'per piece'
+      currency: "USD",
+      unit: "per piece",
     },
     specifications: {
-      'Material': 'Cotton, Polyester, Blends, Denim',
-      'Sizes': 'XS to XXL',
-      'Colors': 'Wide range available',
-      'Styles': 'Casual, Formal, Ethnic, Sportswear',
+      Material: "Cotton, Polyester, Blends, Denim",
+      Sizes: "XS to XXL",
+      Colors: "Wide range available",
+      Styles: "Casual, Formal, Ethnic, Sportswear",
     },
     features: [
-      'Trendy designs',
-      'Durable fabrics',
-      'Comfort fit',
-      'Color fast',
-      'Machine washable'
+      "Trendy designs",
+      "Durable fabrics",
+      "Comfort fit",
+      "Color fast",
+      "Machine washable",
     ],
-    certifications: ['ISO 9001', 'GOTS (Available)'],
-    moq: '1000 pieces',
-    leadTime: '20-30 days',
-    origin: 'India',
-    packaging: ['Polybags', 'Hangers with covers', 'Custom packaging available'],
-    applications: ['Retail stores', 'E-commerce brands', 'Corporate uniforms']
+    certifications: ["ISO 9001", "GOTS (Available)"],
+    moq: "1000 pieces",
+    leadTime: "20-30 days",
+    origin: "India",
+    packaging: [
+      "Polybags",
+      "Hangers with covers",
+      "Custom packaging available",
+    ],
+    applications: ["Retail stores", "E-commerce brands", "Corporate uniforms"],
   },
   {
-    id: 'kids-baby-clothing',
-    name: 'Kids & Baby Clothing',
-    category: 'Textiles & Garments',
-    categoryId: 'textiles',
-    image: '/images/hero-page-sliders/hero-1.jpg',
-    images: ['/images/hero-page-sliders/hero-1.jpg', '/images/hero-page-sliders/hero-2.jpg', '/images/hero-page-sliders/hero-3.jpg'],
-    shortDescription: 'Soft, safe, and stylish clothing for babies and kids.',
-    description: 'Our Kids & Baby Clothing range includes baby rompers, frocks, T-shirts, shorts, and uniforms. Crafted from soft, breathable, and skin-friendly fabrics, these clothes ensure maximum comfort and safety for children.',
+    id: "kids-baby-clothing",
+    name: "Kids & Baby Clothing",
+    category: "Textiles & Garments",
+    categoryId: "textiles",
+    image: "/images/textiles/kids-and-baby/image-1.jpg",
+    images: [
+      "/images/textiles/kids-and-baby/image-1.jpg",
+      "/images/textiles/kids-and-baby/image-2.jpg",
+      "/images/textiles/kids-and-baby/image-3.jpg",
+      "/images/textiles/kids-and-baby/image-4.jpg",
+      "/images/textiles/kids-and-baby/image-5.jpg",
+    ],
+    shortDescription: "Soft, safe, and stylish clothing for babies and kids.",
+    description:
+      "Our Kids & Baby Clothing range includes baby rompers, frocks, T-shirts, shorts, and uniforms. Crafted from soft, breathable, and skin-friendly fabrics, these clothes ensure maximum comfort and safety for children.",
     price: {
       min: 5,
       max: 25,
-      currency: 'USD',
-      unit: 'per piece'
+      currency: "USD",
+      unit: "per piece",
     },
     specifications: {
-      'Material': '100% Cotton / Organic Cotton',
-      'Sizes': 'Newborn to 14 years',
-      'Colors': 'Assorted prints and solids',
-      'Safety': 'Nickel-free buttons, Non-toxic dyes'
+      Material: "100% Cotton / Organic Cotton",
+      Sizes: "Newborn to 14 years",
+      Colors: "Assorted prints and solids",
+      Safety: "Nickel-free buttons, Non-toxic dyes",
     },
     features: [
-      'Soft & breathable fabrics',
-      'Skin-friendly',
-      'Durable stitching',
-      'Trendy prints',
-      'Easy care'
+      "Soft & breathable fabrics",
+      "Skin-friendly",
+      "Durable stitching",
+      "Trendy prints",
+      "Easy care",
     ],
-    certifications: ['OEKO-TEX Standard 100', 'GOTS (Available)'],
-    moq: '500 pieces',
-    leadTime: '15-25 days',
-    origin: 'India',
-    packaging: ['Polybags', 'Gift sets', 'Custom packaging available'],
-    applications: ['Retail chains', 'E-commerce brands', 'Baby stores', 'Schools (uniforms)']
+    certifications: ["OEKO-TEX Standard 100", "GOTS (Available)"],
+    moq: "500 pieces",
+    leadTime: "15-25 days",
+    origin: "India",
+    packaging: ["Polybags", "Gift sets", "Custom packaging available"],
+    applications: [
+      "Retail chains",
+      "E-commerce brands",
+      "Baby stores",
+      "Schools (uniforms)",
+    ],
   },
   {
-    id: 'gym-sportswear',
-    name: 'Gym & Sportswear',
-    category: 'Textiles & Garments',
-    categoryId: 'textiles',
-    image: '/images/hero-page-sliders/hero-2.jpg',
-    images: ['/images/hero-page-sliders/hero-2.jpg', '/images/hero-page-sliders/hero-3.jpg', '/images/hero-page-sliders/hero-1.jpg'],
-    shortDescription: 'High-performance sportswear for gym, yoga, and outdoor activities.',
-    description: 'Our Gym & Sportswear collection includes dry-fit T-shirts, shorts, joggers, leggings, and yoga wear. Designed for comfort, flexibility, and durability, these garments are made with breathable fabrics and moisture-wicking technology.',
+    id: "gym-sportswear",
+    name: "Gym & Sportswear",
+    category: "Textiles & Garments",
+    categoryId: "textiles",
+    image: "/images/textiles/gym-and-sports/image-1.jpg",
+    images: [
+      "/images/textiles/gym-and-sports/image-1.jpg",
+      "/images/textiles/gym-and-sports/image-2.jpg",
+      "/images/textiles/gym-and-sports/image-3.jpg",
+      "/images/textiles/gym-and-sports/image-4.jpg",
+    ],
+    shortDescription:
+      "High-performance sportswear for gym, yoga, and outdoor activities.",
+    description:
+      "Our Gym & Sportswear collection includes dry-fit T-shirts, shorts, joggers, leggings, and yoga wear. Designed for comfort, flexibility, and durability, these garments are made with breathable fabrics and moisture-wicking technology.",
     price: {
       min: 10,
       max: 45,
-      currency: 'USD',
-      unit: 'per piece'
+      currency: "USD",
+      unit: "per piece",
     },
     specifications: {
-      'Material': 'Polyester, Spandex, Nylon Blends',
-      'Sizes': 'XS to XXL',
-      'Colors': 'Custom colors and prints available',
-      'Technology': 'Moisture-wicking, Quick-dry, Stretchable'
+      Material: "Polyester, Spandex, Nylon Blends",
+      Sizes: "XS to XXL",
+      Colors: "Custom colors and prints available",
+      Technology: "Moisture-wicking, Quick-dry, Stretchable",
     },
     features: [
-      'Breathable fabric',
-      'Flexible & stretchable',
-      'Moisture control',
-      'Durable construction',
-      'Stylish designs'
+      "Breathable fabric",
+      "Flexible & stretchable",
+      "Moisture control",
+      "Durable construction",
+      "Stylish designs",
     ],
-    certifications: ['ISO 9001', 'OEKO-TEX Standard 100'],
-    moq: '800 pieces',
-    leadTime: '20-30 days',
-    origin: 'India',
-    packaging: ['Polybags', 'Custom packaging available'],
-    applications: ['Gyms', 'Sports clubs', 'Retail brands', 'E-commerce stores']
+    certifications: ["ISO 9001", "OEKO-TEX Standard 100"],
+    moq: "800 pieces",
+    leadTime: "20-30 days",
+    origin: "India",
+    packaging: ["Polybags", "Custom packaging available"],
+    applications: [
+      "Gyms",
+      "Sports clubs",
+      "Retail brands",
+      "E-commerce stores",
+    ],
   },
 
   //Leather Products
   {
-    id: 'leather-footwear',
-    name: 'Leather Footwear',
-    category: 'Leather Products',
-    categoryId: 'leathers',
-    image: '/images/hero-page-sliders/hero-1.jpg',
-    images: ['/images/hero-page-sliders/hero-1.jpg', '/images/hero-page-sliders/hero-2.jpg', '/images/hero-page-sliders/hero-3.jpg'],
-    shortDescription: 'Premium leather footwear including formal, casual, sandals, and boots.',
-    description: 'Our Leather Footwear collection features handcrafted formal shoes, casual wear, sandals, and boots made from premium leather. Designed for durability, comfort, and timeless style, they cater to diverse fashion and utility needs.',
+    id: "leather-footwear",
+    name: "Leather Footwear",
+    category: "Leather Products",
+    categoryId: "leathers",
+    image: "/images/leather/footwear/image-1.jpg",
+    images: [
+      "/images/leather/footwear/image-1.jpg",
+      "/images/leather/footwear/image-2.jpg",
+      "/images/leather/footwear/image-3.jpg",
+    ],
+    shortDescription:
+      "Premium leather footwear including formal, casual, sandals, and boots.",
+    description:
+      "Our Leather Footwear collection features handcrafted formal shoes, casual wear, sandals, and boots made from premium leather. Designed for durability, comfort, and timeless style, they cater to diverse fashion and utility needs.",
     price: {
       min: 30,
       max: 120,
-      currency: 'USD',
-      unit: 'per pair'
+      currency: "USD",
+      unit: "per pair",
     },
     specifications: {
-      'Material': 'Genuine Leather / PU Leather (on request)',
-      'Types': 'Formal, Casual, Sandals, Boots',
-      'Sizes': 'Standard EU/US/UK sizes',
-      'Colors': 'Black, Brown, Tan, Custom shades',
-      'Finish': 'Matte, Glossy, Textured'
+      Material: "Genuine Leather / PU Leather (on request)",
+      Types: "Formal, Casual, Sandals, Boots",
+      Sizes: "Standard EU/US/UK sizes",
+      Colors: "Black, Brown, Tan, Custom shades",
+      Finish: "Matte, Glossy, Textured",
     },
-    features: ['Durable sole', 'Comfort fit', 'Handcrafted quality', 'Elegant design'],
-    moq: '300 pairs',
-    leadTime: '25-35 days',
-    origin: 'India',
-    packaging: ['Individual shoe boxes', 'Custom packaging available'],
-    applications: ['Formal wear', 'Casual wear', 'Outdoor wear'],
-    certifications: []
+    features: [
+      "Durable sole",
+      "Comfort fit",
+      "Handcrafted quality",
+      "Elegant design",
+    ],
+    moq: "300 pairs",
+    leadTime: "25-35 days",
+    origin: "India",
+    packaging: ["Individual shoe boxes", "Custom packaging available"],
+    applications: ["Formal wear", "Casual wear", "Outdoor wear"],
+    certifications: [],
   },
   {
-    id: 'leather-accessories',
-    name: 'Leather Accessories',
-    category: 'Leather Products',
-    categoryId: 'leathers',
-    image: '/images/hero-page-sliders/hero-1.jpg',
-    images: ['/images/hero-page-sliders/hero-1.jpg', '/images/hero-page-sliders/hero-2.jpg', '/images/hero-page-sliders/hero-3.jpg'],
-    shortDescription: 'Elegant and durable leather wallets, belts, purses, gloves, and caps.',
-    description: 'Our Leather Accessories collection includes finely crafted wallets, purses, belts, gloves, and caps. These accessories combine functionality with style, making them suitable for both daily use and premium gifting.',
+    id: "leather-accessories",
+    name: "Leather Accessories",
+    category: "Leather Products",
+    categoryId: "leathers",
+    image: "/images/leather/accessories/image-1.jpg",
+    images: [
+      "/images/leather/accessories/image-1.jpg",
+      "/images/leather/accessories/image-2.jpg",
+      "/images/leather/accessories/image-3.jpg",
+      "/images/leather/accessories/image-4.jpg",
+    ],
+    shortDescription:
+      "Elegant and durable leather wallets, belts, purses, gloves, and caps.",
+    description:
+      "Our Leather Accessories collection includes finely crafted wallets, purses, belts, gloves, and caps. These accessories combine functionality with style, making them suitable for both daily use and premium gifting.",
     price: {
       min: 10,
       max: 80,
-      currency: 'USD',
-      unit: 'per piece'
+      currency: "USD",
+      unit: "per piece",
     },
     specifications: {
-      'Material': 'Genuine Leather / PU Leather',
-      'Products': 'Wallets, Purses, Belts, Gloves, Caps',
-      'Colors': 'Classic Black, Brown, Tan',
-      'Sizes': 'Standard sizes available'
+      Material: "Genuine Leather / PU Leather",
+      Products: "Wallets, Purses, Belts, Gloves, Caps",
+      Colors: "Classic Black, Brown, Tan",
+      Sizes: "Standard sizes available",
     },
-    features: ['Compact & stylish', 'Durable construction', 'Hand-stitched finish', 'Custom branding available'],
-    moq: '500 pieces',
-    leadTime: '20-30 days',
-    origin: 'India',
-    packaging: ['Gift boxes', 'Custom branding'],
-    applications: ['Corporate gifting', 'Retail chains', 'Daily essentials'],
-    certifications: []
+    features: [
+      "Compact & stylish",
+      "Durable construction",
+      "Hand-stitched finish",
+      "Custom branding available",
+    ],
+    moq: "500 pieces",
+    leadTime: "20-30 days",
+    origin: "India",
+    packaging: ["Gift boxes", "Custom branding"],
+    applications: ["Corporate gifting", "Retail chains", "Daily essentials"],
+    certifications: [],
   },
   {
-    id: 'leather-apparel',
-    name: 'Leather Apparel',
-    category: 'Leather Products',
-    categoryId: 'leathers',
-     image: '/images/hero-page-sliders/hero-1.jpg',
-    images: ['/images/hero-page-sliders/hero-1.jpg', '/images/hero-page-sliders/hero-2.jpg', '/images/hero-page-sliders/hero-3.jpg'],
-    shortDescription: 'Premium leather jackets for men and women, including biker jackets.',
-    description: 'Our Leather Apparel line includes fashionable and durable jackets for men and women, including stylish biker jackets. Made from high-quality leather, these garments combine comfort, protection, and trend-setting design.',
+    id: "leather-apparel",
+    name: "Leather Apparel",
+    category: "Leather Products",
+    categoryId: "leathers",
+    image: "/images/leather/apparel/image-1.jpg",
+    images: [
+      "/images/leather/apparel/image-1.jpg",
+      "/images/leather/apparel/image-2.jpg",
+      "/images/leather/apparel/image-3.jpg",
+      "/images/leather/apparel/image-4.jpg",
+    ],
+    shortDescription:
+      "Premium leather jackets for men and women, including biker jackets.",
+    description:
+      "Our Leather Apparel line includes fashionable and durable jackets for men and women, including stylish biker jackets. Made from high-quality leather, these garments combine comfort, protection, and trend-setting design.",
     price: {
       min: 60,
       max: 200,
-      currency: 'USD',
-      unit: 'per piece'
+      currency: "USD",
+      unit: "per piece",
     },
     specifications: {
-      'Material': 'Genuine Leather',
-      'Types': 'Men & Women Jackets, Biker Jackets',
-      'Sizes': 'S, M, L, XL, Custom',
-      'Colors': 'Black, Brown, Tan'
+      Material: "Genuine Leather",
+      Types: "Men & Women Jackets, Biker Jackets",
+      Sizes: "S, M, L, XL, Custom",
+      Colors: "Black, Brown, Tan",
     },
-    features: ['Stylish & protective', 'Durable stitching', 'Comfortable fit', 'Timeless design'],
-    moq: '200 pieces',
-    leadTime: '30-45 days',
-    origin: 'India',
-    packaging: ['Individual garment covers', 'Custom branding available'],
-    applications: ['Fashion retail', 'Winter wear', 'Motorbike gear'],
-    certifications: []
+    features: [
+      "Stylish & protective",
+      "Durable stitching",
+      "Comfortable fit",
+      "Timeless design",
+    ],
+    moq: "200 pieces",
+    leadTime: "30-45 days",
+    origin: "India",
+    packaging: ["Individual garment covers", "Custom branding available"],
+    applications: ["Fashion retail", "Winter wear", "Motorbike gear"],
+    certifications: [],
   },
   {
-    id: 'leather-corporate-gifting',
-    name: 'Leather Corporate Gifting',
-    category: 'Leather Products',
-    categoryId: 'leathers',
-    image: '/images/hero-page-sliders/hero-1.jpg',
-    images: ['/images/hero-page-sliders/hero-1.jpg', '/images/hero-page-sliders/hero-2.jpg', '/images/hero-page-sliders/hero-3.jpg'],
-    shortDescription: 'Elegant leather gifting solutions including diaries, laptop bags, and card holders.',
-    description: 'Our Leather Corporate Gifting range offers premium diaries, laptop bags, and card holders crafted from fine leather. Ideal for businesses, events, and corporate giveaways, these items add a touch of class and long-lasting value.',
+    id: "leather-corporate-gifting",
+    name: "Leather Corporate Gifting",
+    category: "Leather Products",
+    categoryId: "leathers",
+    image: "/images/leather/corporate-gifting/image-1.avif",
+    images: [
+      "/images/leather/corporate-gifting/image-1.avif",
+      "/images/leather/corporate-gifting/image-2.jpg",
+      "/images/leather/corporate-gifting/image-3.jpg",
+      "/images/leather/corporate-gifting/image-4.jpeg",
+    ],
+    shortDescription:
+      "Elegant leather gifting solutions including diaries, laptop bags, and card holders.",
+    description:
+      "Our Leather Corporate Gifting range offers premium diaries, laptop bags, and card holders crafted from fine leather. Ideal for businesses, events, and corporate giveaways, these items add a touch of class and long-lasting value.",
     price: {
       min: 15,
       max: 100,
-      currency: 'USD',
-      unit: 'per piece'
+      currency: "USD",
+      unit: "per piece",
     },
     specifications: {
-      'Material': 'Genuine Leather / PU Leather',
-      'Products': 'Leather Diary, Laptop Bag, Card Holders',
-      'Colors': 'Black, Brown, Tan, Custom shades',
-      'Sizes': 'Standard & custom sizes available'
+      Material: "Genuine Leather / PU Leather",
+      Products: "Leather Diary, Laptop Bag, Card Holders",
+      Colors: "Black, Brown, Tan, Custom shades",
+      Sizes: "Standard & custom sizes available",
     },
-    features: ['Premium gifting choice', 'Durable & practical', 'Elegant designs', 'Custom branding available'],
-    moq: '500 pieces',
-    leadTime: '20-35 days',
-    origin: 'India',
-    packaging: ['Gift boxes', 'Corporate branding available'],
-    applications: ['Corporate gifting', 'Events & conferences', 'Premium giveaways'],
-    certifications: []
+    features: [
+      "Premium gifting choice",
+      "Durable & practical",
+      "Elegant designs",
+      "Custom branding available",
+    ],
+    moq: "500 pieces",
+    leadTime: "20-35 days",
+    origin: "India",
+    packaging: ["Gift boxes", "Corporate branding available"],
+    applications: [
+      "Corporate gifting",
+      "Events & conferences",
+      "Premium giveaways",
+    ],
+    certifications: [],
   },
 
   // Handicrafts
   {
-    id: 'handicrafts-general',
-    name: 'Traditional Handicrafts',
-    category: 'Handicrafts',
-    categoryId: 'handicrafts',
-    image: '/images/hero-page-sliders/hero-1.jpg',
-    images: ['/images/hero-page-sliders/hero-1.jpg', '/images/hero-page-sliders/hero-2.jpg', '/images/hero-page-sliders/hero-3.jpg'],
-    shortDescription: 'Artisan-crafted handicrafts including bamboo bottles, wall hangings, lamps, clocks, vases, and toys.',
-    description: 'Our Traditional Handicrafts collection showcases the artistry of skilled Indian craftsmen. The range includes bamboo bottles, wall hangings, decorative lamps, handcrafted clocks, painted vases, and wooden toys. Each piece is uniquely designed, blending cultural heritage with functional use.',
+    id: "handicrafts-general",
+    name: "Traditional Handicrafts",
+    category: "Handicrafts",
+    categoryId: "handicrafts",
+    image: "/images/handicrafts/traditional/image-1.jpg",
+    images: [
+      "/images/handicrafts/traditional/image-1.jpg",
+      "/images/handicrafts/traditional/image-2.jpg",
+      "/images/handicrafts/traditional/image-3.jpg",
+      "/images/handicrafts/traditional/image-4.jpg",
+      "/images/handicrafts/traditional/image-5.jpg",
+    ],
+    shortDescription:
+      "Artisan-crafted handicrafts including bamboo bottles, wall hangings, lamps, clocks, vases, and toys.",
+    description:
+      "Our Traditional Handicrafts collection showcases the artistry of skilled Indian craftsmen. The range includes bamboo bottles, wall hangings, decorative lamps, handcrafted clocks, painted vases, and wooden toys. Each piece is uniquely designed, blending cultural heritage with functional use.",
     price: {
       min: 10,
       max: 150,
-      currency: 'USD',
-      unit: 'per piece'
+      currency: "USD",
+      unit: "per piece",
     },
     specifications: {
-      'Material': 'Bamboo, Wood, Clay, Natural Paints',
-      'Products': 'Bamboo Bottles, Wall Hangings, Lamps, Clocks, Painted Vases, Wooden Toys',
-      'Finish': 'Hand-painted, Natural Polish',
-      'Durability': 'Eco-friendly & long-lasting'
+      Material: "Bamboo, Wood, Clay, Natural Paints",
+      Products:
+        "Bamboo Bottles, Wall Hangings, Lamps, Clocks, Painted Vases, Wooden Toys",
+      Finish: "Hand-painted, Natural Polish",
+      Durability: "Eco-friendly & long-lasting",
     },
     features: [
-      'Unique artisan designs',
-      'Handcrafted with care',
-      'Decorative & functional',
-      'Cultural heritage touch'
+      "Unique artisan designs",
+      "Handcrafted with care",
+      "Decorative & functional",
+      "Cultural heritage touch",
     ],
-    moq: '100 pieces',
-    leadTime: '25-40 days',
-    origin: 'India',
-    packaging: ['Protective wrapping', 'Eco-friendly boxes'],
-    applications: ['Home décor', 'Gifting', 'Souvenirs', 'Retail stores'],
-    certifications: []
+    moq: "100 pieces",
+    leadTime: "25-40 days",
+    origin: "India",
+    packaging: ["Protective wrapping", "Eco-friendly boxes"],
+    applications: ["Home décor", "Gifting", "Souvenirs", "Retail stores"],
+    certifications: [],
   },
   {
-    id: 'handicrafts-eco',
-    name: 'Eco-Friendly Handicrafts',
-    category: 'Handicrafts',
-    categoryId: 'handicrafts',
-    image: '/images/hero-page-sliders/hero-2.jpg',
-    images: ['/images/hero-page-sliders/hero-1.jpg', '/images/hero-page-sliders/hero-2.jpg', '/images/hero-page-sliders/hero-3.jpg'],
-    shortDescription: 'Sustainable handicrafts including jute bags, recycled crafts, and coconut shell bowls.',
-    description: 'Our Eco-Friendly Handicrafts collection focuses on sustainable, reusable, and biodegradable products. From jute bags and recycled crafts to coconut shell bowls, each product is designed to reduce environmental impact while offering utility and style.',
+    id: "handicrafts-eco",
+    name: "Eco-Friendly Handicrafts",
+    category: "Handicrafts",
+    categoryId: "handicrafts",
+     image: "/images/handicrafts/eco-friendly/image-1.jpg",
+    images: [
+      "/images/handicrafts/eco-friendly/image-1.jpg",
+      "/images/handicrafts/eco-friendly/image-2.jpg",
+      "/images/handicrafts/eco-friendly/image-3.jpg",
+    ],
+    shortDescription:
+      "Sustainable handicrafts including jute bags, recycled crafts, and coconut shell bowls.",
+    description:
+      "Our Eco-Friendly Handicrafts collection focuses on sustainable, reusable, and biodegradable products. From jute bags and recycled crafts to coconut shell bowls, each product is designed to reduce environmental impact while offering utility and style.",
     price: {
       min: 5,
       max: 80,
-      currency: 'USD',
-      unit: 'per piece'
+      currency: "USD",
+      unit: "per piece",
     },
     specifications: {
-      'Material': 'Jute, Recycled Materials, Coconut Shells',
-      'Products': 'Jute Bags, Recycled Crafts, Coconut Shell Bowls',
-      'Finish': 'Natural / Handmade',
-      'Durability': 'Reusable & eco-friendly'
+      Material: "Jute, Recycled Materials, Coconut Shells",
+      Products: "Jute Bags, Recycled Crafts, Coconut Shell Bowls",
+      Finish: "Natural / Handmade",
+      Durability: "Reusable & eco-friendly",
     },
     features: [
-      'Eco-conscious products',
-      'Reusable & biodegradable',
-      'Handcrafted by artisans',
-      'Stylish & sustainable'
+      "Eco-conscious products",
+      "Reusable & biodegradable",
+      "Handcrafted by artisans",
+      "Stylish & sustainable",
     ],
-    moq: '200 pieces',
-    leadTime: '20-35 days',
-    origin: 'India',
-    packaging: ['Eco-friendly packaging', 'Custom branding'],
-    applications: ['Eco-stores', 'Retail chains', 'Corporate gifting', 'Daily use'],
-    certifications: []
+    moq: "200 pieces",
+    leadTime: "20-35 days",
+    origin: "India",
+    packaging: ["Eco-friendly packaging", "Custom branding"],
+    applications: [
+      "Eco-stores",
+      "Retail chains",
+      "Corporate gifting",
+      "Daily use",
+    ],
+    certifications: [],
   },
-
 
   // Furniture
   {
-    id: 'wooden-furniture',
-    name: 'Wooden Furniture',
-    category: 'Furniture',
-    categoryId: 'furniture',
-    image: '/images/hero-page-sliders/hero-1.jpg',
-    images: ['/images/hero-page-sliders/hero-1.jpg', '/images/hero-page-sliders/hero-2.jpg', '/images/hero-page-sliders/hero-3.jpg'],
-    shortDescription: 'Elegant wooden furniture including dining sets, sofa sets, coffee tables, and TV units.',
-    description: 'Our Wooden Furniture collection is crafted from high-quality solid wood, combining durability with timeless design. From dining sets and sofa sets to coffee tables and TV units, each piece is built to add warmth and sophistication to your living spaces.',
+    id: "wooden-furniture",
+    name: "Wooden Furniture",
+    category: "Furniture",
+    categoryId: "furniture",
+    image: "/images/furniture/wooden/image-1.jpg",
+    images: [
+      "/images/furniture/wooden/image-1.jpg",
+      "/images/furniture/wooden/image-2.jpg",
+      "/images/furniture/wooden/image-3.jpg",
+      "/images/furniture/wooden/image-4.jpg",
+    ],
+    shortDescription:
+      "Elegant wooden furniture including dining sets, sofa sets, coffee tables, and TV units.",
+    description:
+      "Our Wooden Furniture collection is crafted from high-quality solid wood, combining durability with timeless design. From dining sets and sofa sets to coffee tables and TV units, each piece is built to add warmth and sophistication to your living spaces.",
     price: {
       min: 100,
       max: 800,
-      currency: 'USD',
-      unit: 'per piece'
+      currency: "USD",
+      unit: "per piece",
     },
     specifications: {
-      'Material': 'Solid Wood (Teak, Sheesham, Mango)',
-      'Products': 'Dining Sets, Sofa Sets, Coffee Tables, TV Units',
-      'Finish': 'Polished / Matte / Custom',
-      'Durability': 'Long-lasting, termite-resistant'
+      Material: "Solid Wood (Teak, Sheesham, Mango)",
+      Products: "Dining Sets, Sofa Sets, Coffee Tables, TV Units",
+      Finish: "Polished / Matte / Custom",
+      Durability: "Long-lasting, termite-resistant",
     },
-    features: ['Premium wood quality', 'Elegant designs', 'Durable construction', 'Custom finishes available'],
-    moq: '50 pieces',
-    leadTime: '30-45 days',
-    origin: 'India',
-    packaging: ['Standard export packaging', 'Custom packaging available'],
-    applications: ['Homes', 'Hotels', 'Showrooms', 'Retail chains'],
-    certifications: []
+    features: [
+      "Premium wood quality",
+      "Elegant designs",
+      "Durable construction",
+      "Custom finishes available",
+    ],
+    moq: "50 pieces",
+    leadTime: "30-45 days",
+    origin: "India",
+    packaging: ["Standard export packaging", "Custom packaging available"],
+    applications: ["Homes", "Hotels", "Showrooms", "Retail chains"],
+    certifications: [],
   },
   {
-    id: 'office-furniture',
-    name: 'Office Furniture',
-    category: 'Furniture',
-    categoryId: 'furniture',
-    image: '/images/hero-page-sliders/hero-1.jpg',
-    images: ['/images/hero-page-sliders/hero-1.jpg', '/images/hero-page-sliders/hero-2.jpg', '/images/hero-page-sliders/hero-3.jpg'],
-    shortDescription: 'Modern office furniture including work desks, ergonomic chairs, and conference tables.',
-    description: 'Our Office Furniture range is designed to provide comfort, functionality, and a professional look. Featuring ergonomic chairs, spacious work desks, and stylish conference tables, these pieces are perfect for creating productive workspaces.',
+    id: "office-furniture",
+    name: "Office Furniture",
+    category: "Furniture",
+    categoryId: "furniture",
+    image: "/images/furniture/office/image-1.jpg",
+    images: [
+      "/images/furniture/office/image-1.jpg",
+      "/images/furniture/office/image-2.jpg",
+      "/images/furniture/office/image-3.jpg",
+    ],
+    shortDescription:
+      "Modern office furniture including work desks, ergonomic chairs, and conference tables.",
+    description:
+      "Our Office Furniture range is designed to provide comfort, functionality, and a professional look. Featuring ergonomic chairs, spacious work desks, and stylish conference tables, these pieces are perfect for creating productive workspaces.",
     price: {
       min: 80,
       max: 600,
-      currency: 'USD',
-      unit: 'per piece'
+      currency: "USD",
+      unit: "per piece",
     },
     specifications: {
-      'Material': 'Wood, Engineered Wood, Metal, Upholstery',
-      'Products': 'Work Desks, Ergonomic Chairs, Conference Tables',
-      'Features': 'Ergonomic design, Sturdy build, Space-efficient'
+      Material: "Wood, Engineered Wood, Metal, Upholstery",
+      Products: "Work Desks, Ergonomic Chairs, Conference Tables",
+      Features: "Ergonomic design, Sturdy build, Space-efficient",
     },
-    features: ['Ergonomic comfort', 'Durable construction', 'Stylish designs', 'Custom sizes available'],
-    moq: '100 pieces',
-    leadTime: '25-40 days',
-    origin: 'India',
-    packaging: ['Flat-pack cartons', 'Custom packaging available'],
-    applications: ['Corporate offices', 'Co-working spaces', 'Conference halls'],
-    certifications: []
+    features: [
+      "Ergonomic comfort",
+      "Durable construction",
+      "Stylish designs",
+      "Custom sizes available",
+    ],
+    moq: "100 pieces",
+    leadTime: "25-40 days",
+    origin: "India",
+    packaging: ["Flat-pack cartons", "Custom packaging available"],
+    applications: [
+      "Corporate offices",
+      "Co-working spaces",
+      "Conference halls",
+    ],
+    certifications: [],
   },
   {
-    id: 'custom-handicraft-furniture',
-    name: 'Custom & Handicraft Furniture',
-    category: 'Furniture',
-    categoryId: 'furniture',
-    image: '/images/hero-page-sliders/hero-1.jpg',
-    images: ['/images/hero-page-sliders/hero-1.jpg', '/images/hero-page-sliders/hero-2.jpg', '/images/hero-page-sliders/hero-3.jpg'],
-    shortDescription: 'Handcrafted furniture including carved tables, ethnic chairs, and bamboo furniture.',
-    description: 'Our Custom & Handicraft Furniture collection features unique designs created by skilled artisans. From intricately carved tables and ethnic chairs to eco-friendly bamboo furniture, each piece reflects traditional craftsmanship with a modern touch.',
+    id: "custom-handicraft-furniture",
+    name: "Custom & Handicraft Furniture",
+    category: "Furniture",
+    categoryId: "furniture",
+    image: "/images/furniture/custom/image-1.jpg",
+    images: [
+      "/images/furniture/custom/image-1.jpg",
+      "/images/furniture/custom/image-2.jpg",
+      "/images/furniture/custom/image-3.jpg",
+    ],
+    shortDescription:
+      "Handcrafted furniture including carved tables, ethnic chairs, and bamboo furniture.",
+    description:
+      "Our Custom & Handicraft Furniture collection features unique designs created by skilled artisans. From intricately carved tables and ethnic chairs to eco-friendly bamboo furniture, each piece reflects traditional craftsmanship with a modern touch.",
     price: {
       min: 70,
       max: 500,
-      currency: 'USD',
-      unit: 'per piece'
+      currency: "USD",
+      unit: "per piece",
     },
     specifications: {
-      'Material': 'Solid Wood, Bamboo, Cane',
-      'Products': 'Carved Tables, Ethnic Chairs, Bamboo Furniture',
-      'Finish': 'Hand-polished, Painted, Natural',
-      'Specialty': 'Handcrafted, Customizable'
+      Material: "Solid Wood, Bamboo, Cane",
+      Products: "Carved Tables, Ethnic Chairs, Bamboo Furniture",
+      Finish: "Hand-polished, Painted, Natural",
+      Specialty: "Handcrafted, Customizable",
     },
-    features: ['Unique craftsmanship', 'Eco-friendly options', 'Customizable designs', 'Durable quality'],
-    moq: '30 pieces',
-    leadTime: '35-50 days',
-    origin: 'India',
-    packaging: ['Protective wrapping', 'Export cartons', 'Custom packaging available'],
-    applications: ['Luxury homes', 'Boutiques', 'Hotels & resorts', 'Export markets'],
-    certifications: []
+    features: [
+      "Unique craftsmanship",
+      "Eco-friendly options",
+      "Customizable designs",
+      "Durable quality",
+    ],
+    moq: "30 pieces",
+    leadTime: "35-50 days",
+    origin: "India",
+    packaging: [
+      "Protective wrapping",
+      "Export cartons",
+      "Custom packaging available",
+    ],
+    applications: [
+      "Luxury homes",
+      "Boutiques",
+      "Hotels & resorts",
+      "Export markets",
+    ],
+    certifications: [],
   },
 
   //Imitation Jewellery
   {
-    id: 'imitation-jewellery',
-    name: 'Imitation Jewellery',
-    category: 'Fashion & Lifestyle',
-    categoryId: 'imitation-jewellery',
-    image: '/images/hero-page-sliders/hero-2.jpg',
-    images: ['/images/hero-page-sliders/hero-1.jpg', '/images/hero-page-sliders/hero-2.jpg', '/images/hero-page-sliders/hero-3.jpg'],
-    shortDescription: 'Stylish imitation jewellery including necklaces, bangles, rings, earrings, anklets, and bridal sets.',
-    description: 'Our Imitation Jewellery collection features a wide range of trendy and traditional designs including necklaces, bangles, rings, earrings, anklets, bridal sets, and antique designs. Crafted with precision, these pieces offer the perfect blend of elegance and affordability, making them ideal for daily wear, parties, and weddings.',
+    id: "imitation-jewellery",
+    name: "Imitation Jewellery",
+    category: "Fashion & Lifestyle",
+    categoryId: "imitation-jewellery",
+    image: "/images/imitation-jewellery/imitation/image-1.jpg",
+    images: [
+      "/images/imitation-jewellery/imitation/image-1.jpg",
+      "/images/imitation-jewellery/imitation/image-2.jpg",
+      "/images/imitation-jewellery/imitation/image-3.jpg",
+      "/images/imitation-jewellery/imitation/image-4.jpg",
+      "/images/imitation-jewellery/imitation/image-5.jpg",
+      "/images/imitation-jewellery/imitation/image-6.jpg",
+    ],
+    shortDescription:
+      "Stylish imitation jewellery including necklaces, bangles, rings, earrings, anklets, and bridal sets.",
+    description:
+      "Our Imitation Jewellery collection features a wide range of trendy and traditional designs including necklaces, bangles, rings, earrings, anklets, bridal sets, and antique designs. Crafted with precision, these pieces offer the perfect blend of elegance and affordability, making them ideal for daily wear, parties, and weddings.",
     price: {
       min: 5,
       max: 80,
-      currency: 'USD',
-      unit: 'per piece / set'
+      currency: "USD",
+      unit: "per piece / set",
     },
     specifications: {
-      'Material': 'Alloy, Brass, Copper with Gold/Silver Plating',
-      'Products': 'Necklaces, Bangles, Rings, Earrings, Anklets, Bridal Sets, Antique Designs',
-      'Finish': 'Gold Plated, Silver Plated, Antique Polish',
-      'Durability': 'Long-lasting with proper care',
-      'Occasion': 'Daily wear, Party wear, Bridal wear'
+      Material: "Alloy, Brass, Copper with Gold/Silver Plating",
+      Products:
+        "Necklaces, Bangles, Rings, Earrings, Anklets, Bridal Sets, Antique Designs",
+      Finish: "Gold Plated, Silver Plated, Antique Polish",
+      Durability: "Long-lasting with proper care",
+      Occasion: "Daily wear, Party wear, Bridal wear",
     },
     features: [
-      'Trendy & traditional designs',
-      'Lightweight & comfortable',
-      'Affordable luxury',
-      'Skin-friendly materials',
-      'Custom designs available'
+      "Trendy & traditional designs",
+      "Lightweight & comfortable",
+      "Affordable luxury",
+      "Skin-friendly materials",
+      "Custom designs available",
     ],
-    moq: '500 pieces/sets',
-    leadTime: '20-30 days',
-    origin: 'India',
-    packaging: ['Plastic boxes', 'Jewellery pouches', 'Custom gift packaging'],
-    applications: ['Retail stores', 'E-commerce', 'Wedding collections', 'Corporate gifting'],
-    certifications: []
+    moq: "500 pieces/sets",
+    leadTime: "20-30 days",
+    origin: "India",
+    packaging: ["Plastic boxes", "Jewellery pouches", "Custom gift packaging"],
+    applications: [
+      "Retail stores",
+      "E-commerce",
+      "Wedding collections",
+      "Corporate gifting",
+    ],
+    certifications: [],
   },
 
   //Copper & Brass Items
   {
-  id: 'copper-brass-items',
-  name: 'Copper & Brass Items',
-  category: 'Copper & Brass',
-  categoryId: 'copper-brass-items',
-  image: '/images/hero-page-sliders/hero-2.jpg',
-  images: ['/images/hero-page-sliders/hero-1.jpg', '/images/hero-page-sliders/hero-2.jpg', '/images/hero-page-sliders/hero-3.jpg'],
-  shortDescription: 'Handcrafted copper and brass items including water bottles, urli bowls, jugs, pooja thalis, and decorative wall pieces.',
-  description: 'Our Copper & Brass collection features traditional and contemporary metalware — water bottles, urli bowls, copper jugs, brass pooja thalis, and decorative wall decor. Crafted from high-quality copper and brass with polished and antique finishes, these pieces blend functionality with timeless aesthetics, suitable for daily use, rituals, gifting, and home décor.',
-  price: {
-    min: 8,
-    max: 120,
-    currency: 'USD',
-    unit: 'per piece'
-  },
-  specifications: {
-    'Material': 'Copper, Brass',
-    'Products': 'Water Bottles, Urli Bowls, Copper Jugs, Brass Pooja Thali, Wall Decor',
-    'Finish': 'Polished, Antique, Hand-etched',
-    'Food Grade': 'Available for select items',
-    'Care': 'Hand wash recommended; dry thoroughly'
-  },
-  features: [
-    'Handcrafted finishes',
-    'Traditional & contemporary designs',
-    'Durable metal construction',
-    'Food-grade options available',
-    'Ideal for rituals, gifting & décor'
-  ],
-  moq: '50 pieces',
-  leadTime: '20-35 days',
-  origin: 'India',
-  packaging: ['Protective wrapping', 'Foam inserts', 'Export cartons', 'Custom branding available'],
-  applications: ['Home décor', 'Kitchenware', 'Pooja & rituals', 'Gifting', 'Hospitality & restaurants'],
-  certifications: []
+    id: "copper-brass-items",
+    name: "Copper & Brass Items",
+    category: "Copper & Brass",
+    categoryId: "copper-brass-items",
+    image: "/images/copper-brass-items/copper-and-brass/image-2.jpg",
+    images: [
+      "/images/copper-brass-items/copper-and-brass/image-1.jpg",
+      "/images/copper-brass-items/copper-and-brass/image-2.jpg",
+      "/images/copper-brass-items/copper-and-brass/image-3.jpg",
+    ],
+    shortDescription:
+      "Handcrafted copper and brass items including water bottles, urli bowls, jugs, pooja thalis, and decorative wall pieces.",
+    description:
+      "Our Copper & Brass collection features traditional and contemporary metalware — water bottles, urli bowls, copper jugs, brass pooja thalis, and decorative wall decor. Crafted from high-quality copper and brass with polished and antique finishes, these pieces blend functionality with timeless aesthetics, suitable for daily use, rituals, gifting, and home décor.",
+    price: {
+      min: 8,
+      max: 120,
+      currency: "USD",
+      unit: "per piece",
+    },
+    specifications: {
+      Material: "Copper, Brass",
+      Products:
+        "Water Bottles, Urli Bowls, Copper Jugs, Brass Pooja Thali, Wall Decor",
+      Finish: "Polished, Antique, Hand-etched",
+      "Food Grade": "Available for select items",
+      Care: "Hand wash recommended; dry thoroughly",
+    },
+    features: [
+      "Handcrafted finishes",
+      "Traditional & contemporary designs",
+      "Durable metal construction",
+      "Food-grade options available",
+      "Ideal for rituals, gifting & décor",
+    ],
+    moq: "50 pieces",
+    leadTime: "20-35 days",
+    origin: "India",
+    packaging: [
+      "Protective wrapping",
+      "Foam inserts",
+      "Export cartons",
+      "Custom branding available",
+    ],
+    applications: [
+      "Home décor",
+      "Kitchenware",
+      "Pooja & rituals",
+      "Gifting",
+      "Hospitality & restaurants",
+    ],
+    certifications: [],
   },
 
   //Packaging Products
   {
-  id: 'packaging-products',
-  name: 'Packaging Products',
-  category: 'Packaging',
-  categoryId: 'packaging-products',
-  image: '/images/hero-page-sliders/hero-1.jpg',
-  images: ['/images/hero-page-sliders/hero-1.jpg', '/images/hero-page-sliders/hero-2.jpg', '/images/hero-page-sliders/hero-3.jpg'],
-  shortDescription: 'Durable and eco-friendly packaging products including food containers, corrugated boxes, wrapping rolls, paper bags, and labels.',
-  description: 'Our Packaging Products range offers versatile and eco-conscious solutions for businesses. The collection includes food-safe containers, corrugated shipping boxes, protective wrapping rolls, recyclable paper bags, and customizable labels. Designed to ensure product safety and brand visibility, these packaging items are suitable for industries such as food, retail, logistics, and e-commerce.',
-  price: {
-    min: 0.05,
-    max: 50,
-    currency: 'USD',
-    unit: 'per piece'
+    id: "packaging-products",
+    name: "Packaging Products",
+    category: "Packaging",
+    categoryId: "packaging-products",
+    image: "/images/packaging-products/packaging/image-1.jpg",
+    images: [
+      "/images/packaging-products/packaging/image-1.jpg",
+      "/images/packaging-products/packaging/image-2.jpg",
+      "/images/packaging-products/packaging/image-3.jpg",
+      "/images/packaging-products/packaging/image-4.jpg",
+      "/images/packaging-products/packaging/image-5.jpg",
+    ],
+    shortDescription:
+      "Durable and eco-friendly packaging products including food containers, corrugated boxes, wrapping rolls, paper bags, and labels.",
+    description:
+      "Our Packaging Products range offers versatile and eco-conscious solutions for businesses. The collection includes food-safe containers, corrugated shipping boxes, protective wrapping rolls, recyclable paper bags, and customizable labels. Designed to ensure product safety and brand visibility, these packaging items are suitable for industries such as food, retail, logistics, and e-commerce.",
+    price: {
+      min: 0.05,
+      max: 50,
+      currency: "USD",
+      unit: "per piece",
+    },
+    specifications: {
+      Material: "Paper, Cardboard, Kraft, Plastic (Food Grade), Adhesive",
+      Products:
+        "Food Containers, Corrugated Boxes, Wrapping Rolls, Paper Bags, Labels",
+      "Eco-friendly": "Available for most products",
+      Customization: "Brand logo, size, and design customization available",
+    },
+    features: [
+      "Food-safe & durable",
+      "Eco-friendly & recyclable options",
+      "Customizable branding",
+      "Lightweight & cost-effective",
+      "Ideal for shipping, retail & food packaging",
+    ],
+    moq: "1000 pieces (varies by product)",
+    leadTime: "15-25 days",
+    origin: "India",
+    packaging: [
+      "Bulk cartons",
+      "Shrink wrap",
+      "Custom printed packaging available",
+    ],
+    applications: [
+      "Food & beverage",
+      "E-commerce & retail",
+      "Logistics",
+      "Brand promotions",
+    ],
+    certifications: ["ISO 9001", "Food Grade Certification (where applicable)"],
   },
-  specifications: {
-    'Material': 'Paper, Cardboard, Kraft, Plastic (Food Grade), Adhesive',
-    'Products': 'Food Containers, Corrugated Boxes, Wrapping Rolls, Paper Bags, Labels',
-    'Eco-friendly': 'Available for most products',
-    'Customization': 'Brand logo, size, and design customization available'
-  },
-  features: [
-    'Food-safe & durable',
-    'Eco-friendly & recyclable options',
-    'Customizable branding',
-    'Lightweight & cost-effective',
-    'Ideal for shipping, retail & food packaging'
-  ],
-  moq: '1000 pieces (varies by product)',
-  leadTime: '15-25 days',
-  origin: 'India',
-  packaging: ['Bulk cartons', 'Shrink wrap', 'Custom printed packaging available'],
-  applications: ['Food & beverage', 'E-commerce & retail', 'Logistics', 'Brand promotions'],
-  certifications: ['ISO 9001', 'Food Grade Certification (where applicable)']
-  }
-
-
-
 
   // Electronics
   // {
@@ -915,22 +1204,27 @@ export const products: Product[] = [
 
 // Helper functions
 export const getProductsByCategory = (categoryId: string): Product[] => {
-  return products.filter(product => product.categoryId === categoryId);
+  return products.filter((product) => product.categoryId === categoryId);
 };
 
 export const getProductById = (productId: string): Product | undefined => {
-  return products.find(product => product.id === productId);
+  return products.find((product) => product.id === productId);
 };
 
-export const getCategoryBySlug = (slug: string): ProductCategory | undefined => {
-  return productCategories.find(category => category.slug === slug);
+export const getCategoryBySlug = (
+  slug: string
+): ProductCategory | undefined => {
+  return productCategories.find((category) => category.slug === slug);
 };
 
-export const getRelatedProducts = (productId: string, limit: number = 4): Product[] => {
+export const getRelatedProducts = (
+  productId: string,
+  limit: number = 4
+): Product[] => {
   const product = getProductById(productId);
   if (!product) return [];
-  
+
   return products
-    .filter(p => p.categoryId === product.categoryId && p.id !== productId)
+    .filter((p) => p.categoryId === product.categoryId && p.id !== productId)
     .slice(0, limit);
 };
