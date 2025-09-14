@@ -62,7 +62,7 @@ const Footer = () => {
               <div className="flex items-start gap-3">
                 <MapPin size={16} className="text-secondary mt-0.5" />
                 <span className="text-sm">
-                  [Placeholder Address]<br />
+                  4517, 2nd Floor, Masjid manjil, khatkivad, khamasah, jamalpur<br />
                   Ahmedabad, Gujarat, India
                 </span>
               </div>

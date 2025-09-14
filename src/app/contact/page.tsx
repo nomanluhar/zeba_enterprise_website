@@ -2,6 +2,7 @@ import { generateSEOMetadata, StructuredData } from '@/components/ui/SEOHead';
 import ContactForm from '@/components/ui/ContactForm';
 import { Phone, Mail, MapPin, Clock, Globe, MessageCircle } from 'lucide-react';
 import type { Metadata } from 'next';
+import MapEmbed from '@/components/ui/MapEmbed';
 
 export const metadata: Metadata = generateSEOMetadata({
   title: 'Contact Us - Get in Touch | Zeba Enterprise',
@@ -23,7 +24,7 @@ const ContactPage = () => {
       email: 'info@zeba-enterprise.com',
       address: {
         '@type': 'PostalAddress',
-        streetAddress: '[Placeholder Address]',
+        streetAddress: 'masjid manjil khatkivad khamasah jamalpur 380001',
         addressLocality: 'Ahmedabad',
         addressRegion: 'Gujarat',
         addressCountry: 'India',
@@ -49,7 +50,7 @@ const ContactPage = () => {
     {
       icon: <MapPin className="text-primary" size={24} />,
       title: 'Address',
-      primary: '[Placeholder Address]',
+      primary: '4517, 2nd Floor, Masjid manjil, khatkivad, khamasah, jamalpur',
       secondary: 'Ahmedabad, Gujarat, India - 380001',
       description: 'Visit our office for consultations'
     },
@@ -185,13 +186,8 @@ const ContactPage = () => {
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
                   Our Location
                 </h2>
-                <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center mb-6">
-                  <div className="text-center text-gray-500">
-                    <MapPin size={48} className="mx-auto mb-4" />
-                    <p className="text-lg font-medium">Interactive Map</p>
-                    <p className="text-sm">Google Maps will be integrated here</p>
-                  </div>
-                </div>
+                <MapEmbed />
+
                 
                 {/* Office Details */}
                 <div className="bg-white p-6 rounded-lg shadow-md">
@@ -200,7 +196,7 @@ const ContactPage = () => {
                     <div className="flex items-start gap-3">
                       <MapPin className="text-primary mt-1" size={16} />
                       <div>
-                        <p className="font-medium text-gray-900">[Placeholder Address]</p>
+                        <p className="font-medium text-gray-900">4517, 2nd Floor, Masjid manjil, khatkivad, khamasah, jamalpur</p>
                         <p className="text-gray-600">Ahmedabad, Gujarat, India - 380001</p>
                       </div>
                     </div>

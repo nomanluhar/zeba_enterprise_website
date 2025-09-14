@@ -78,7 +78,7 @@ export const generateBusinessSchema = () => ({
   description: 'Leading import-export company specializing in connecting global markets with premium Indian products.',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: '[Placeholder Address]',
+    streetAddress: '4517, 2nd Floor, Masjid manjil, khatkivad, khamasah, jamalpur',
     addressLocality: 'Ahmedabad',
     addressRegion: 'Gujarat',
     addressCountry: 'India',
