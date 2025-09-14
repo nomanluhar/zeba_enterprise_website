@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { Send, Loader2, CheckCircle, AlertCircle } from 'lucide-react';
+import { useState } from "react";
+import { Send, Loader2, CheckCircle, AlertCircle } from "lucide-react";
 
 interface FormData {
   name: string;
@@ -20,49 +20,55 @@ interface ContactFormProps {
   hideProductInterest?: boolean;
 }
 
-const ContactForm = ({ className = '', initialProductInterest = '', hideProductInterest = false }: ContactFormProps) => {
+const ContactForm = ({
+  className = "",
+  initialProductInterest = "",
+  hideProductInterest = false,
+}: ContactFormProps) => {
   const [formData, setFormData] = useState<FormData>({
-    name: '',
-    email: '',
-    phone: '',
-    country: '',
-    company: '',
+    name: "",
+    email: "",
+    phone: "",
+    country: "",
+    company: "",
     productInterest: initialProductInterest,
-    subject: '',
-    message: '',
+    subject: "",
+    message: "",
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [submitStatus, setSubmitStatus] = useState<
+    "idle" | "success" | "error"
+  >("idle");
   const [errors, setErrors] = useState<Partial<FormData>>({});
 
   const productCategories = [
-    'Textiles & Garments',
-    'Leather Products',
-    'Furniture',
-    'Imitation Jewellery',
-    'Handicrafts',
-    'Copper Products',
-    'Packaging Products',
-    'Spices & Food Products',
+    "Textiles & Garments",
+    "Leather Products",
+    "Furniture",
+    "Imitation Jewellery",
+    "Handicrafts",
+    "Copper Products",
+    "Packaging Products",
+    "Spices & Food Products",
     // 'Electronics',
     // 'Machinery',
-    'Other',
+    "Other",
   ];
 
   const validateForm = (): boolean => {
     const newErrors: Partial<FormData> = {};
 
-    if (!formData.name.trim()) newErrors.name = 'Name is required';
+    if (!formData.name.trim()) newErrors.name = "Name is required";
     if (!formData.email.trim()) {
-      newErrors.email = 'Email is required';
+      newErrors.email = "Email is required";
     } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
-      newErrors.email = 'Please enter a valid email address';
+      newErrors.email = "Please enter a valid email address";
     }
-    if (!formData.phone.trim()) newErrors.phone = 'Phone number is required';
-    if (!formData.country.trim()) newErrors.country = 'Country is required';
-  if (!formData.subject.trim()) newErrors.subject = 'Subject is required';
-  if (!formData.message.trim()) newErrors.message = 'Message is required';
+    if (!formData.phone.trim()) newErrors.phone = "Phone number is required";
+    if (!formData.country.trim()) newErrors.country = "Country is required";
+    if (!formData.subject.trim()) newErrors.subject = "Subject is required";
+    if (!formData.message.trim()) newErrors.message = "Message is required";
 
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
@@ -70,11 +76,11 @@ const ContactForm = ({ className = '', initialProductInterest = '', hideProductI
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!validateForm()) return;
 
     setIsSubmitting(true);
-    setSubmitStatus('idle');
+    setSubmitStatus("idle");
 
     try {
       const res = await fetch("/api/contact", {
@@ -83,64 +89,75 @@ const ContactForm = ({ className = '', initialProductInterest = '', hideProductI
         body: JSON.stringify(formData),
       });
       if (res.ok) {
-        setSubmitStatus('success');
+        setSubmitStatus("success");
         setFormData({
-          name: '',
-          email: '',
-          phone: '',
-          country: '',
-          company: '',
-          productInterest: '',
-          subject: '',
-          message: '',
+          name: "",
+          email: "",
+          phone: "",
+          country: "",
+          company: "",
+          productInterest: "",
+          subject: "",
+          message: "",
         });
       } else {
-        setSubmitStatus('error');
+        setSubmitStatus("error");
       }
     } catch (error) {
-      setSubmitStatus('error');
+      setSubmitStatus("error");
     } finally {
       setIsSubmitting(false);
     }
   };
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >
   ) => {
     const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
-    
+    setFormData((prev) => ({ ...prev, [name]: value }));
+
     // Clear error when user starts typing
     if (errors[name as keyof FormData]) {
-      setErrors(prev => ({ ...prev, [name]: undefined }));
+      setErrors((prev) => ({ ...prev, [name]: undefined }));
     }
   };
 
-  const inputClasses = "w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 transition-colors outline-none placeholder:text-gray-400 text-gray-500";
+  const inputClasses =
+    "w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 transition-colors outline-none placeholder:text-gray-400 text-gray-500";
   const errorClasses = "border-red-500 focus:border-red-500 focus:ring-red-200";
 
   return (
     <form onSubmit={handleSubmit} className={`space-y-6 ${className}`}>
       {/* Status Messages */}
-      {submitStatus === 'success' && (
+      {submitStatus === "success" && (
         <div className="flex items-center gap-2 p-4 bg-green-50 border border-green-200 text-green-800 rounded-lg">
           <CheckCircle size={20} />
-          <span>Thank you! Your message has been sent successfully. We&apos;ll get back to you soon.</span>
+          <span>
+            Thank you! Your message has been sent successfully. We&apos;ll get
+            back to you soon.
+          </span>
         </div>
       )}
-      
-      {submitStatus === 'error' && (
+
+      {submitStatus === "error" && (
         <div className="flex items-center gap-2 p-4 bg-red-50 border border-red-200 text-red-800 rounded-lg">
           <AlertCircle size={20} />
-          <span>Sorry, there was an error sending your message. Please try again.</span>
+          <span>
+            Sorry, there was an error sending your message. Please try again.
+          </span>
         </div>
       )}
 
       {/* Form Fields */}
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Subject */}
         <div className="md:col-span-2">
-          <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
+          <label
+            htmlFor="subject"
+            className="block text-sm font-medium text-gray-700 mb-2"
+          >
             Subject *
           </label>
           <input
@@ -149,7 +166,7 @@ const ContactForm = ({ className = '', initialProductInterest = '', hideProductI
             name="subject"
             value={formData.subject}
             onChange={handleChange}
-            className={`${inputClasses} ${errors.subject ? errorClasses : ''}`}
+            className={`${inputClasses} ${errors.subject ? errorClasses : ""}`}
             placeholder="Enter the subject of your message"
           />
           {errors.subject && (
@@ -158,7 +175,10 @@ const ContactForm = ({ className = '', initialProductInterest = '', hideProductI
         </div>
         {/* Name */}
         <div>
-          <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+          <label
+            htmlFor="name"
+            className="block text-sm font-medium text-gray-700 mb-2"
+          >
             Full Name *
           </label>
           <input
@@ -167,7 +187,7 @@ const ContactForm = ({ className = '', initialProductInterest = '', hideProductI
             name="name"
             value={formData.name}
             onChange={handleChange}
-            className={`${inputClasses} ${errors.name ? errorClasses : ''}`}
+            className={`${inputClasses} ${errors.name ? errorClasses : ""}`}
             placeholder="Enter your full name"
           />
           {errors.name && (
@@ -177,7 +197,10 @@ const ContactForm = ({ className = '', initialProductInterest = '', hideProductI
 
         {/* Email */}
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+          <label
+            htmlFor="email"
+            className="block text-sm font-medium text-gray-700 mb-2"
+          >
             Email Address *
           </label>
           <input
@@ -186,7 +209,7 @@ const ContactForm = ({ className = '', initialProductInterest = '', hideProductI
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className={`${inputClasses} ${errors.email ? errorClasses : ''}`}
+            className={`${inputClasses} ${errors.email ? errorClasses : ""}`}
             placeholder="Enter your email address"
           />
           {errors.email && (
@@ -196,7 +219,10 @@ const ContactForm = ({ className = '', initialProductInterest = '', hideProductI
 
         {/* Phone */}
         <div>
-          <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+          <label
+            htmlFor="phone"
+            className="block text-sm font-medium text-gray-700 mb-2"
+          >
             Phone Number *
           </label>
           <input
@@ -205,7 +231,7 @@ const ContactForm = ({ className = '', initialProductInterest = '', hideProductI
             name="phone"
             value={formData.phone}
             onChange={handleChange}
-            className={`${inputClasses} ${errors.phone ? errorClasses : ''}`}
+            className={`${inputClasses} ${errors.phone ? errorClasses : ""}`}
             placeholder="Enter your phone number"
           />
           {errors.phone && (
@@ -215,7 +241,10 @@ const ContactForm = ({ className = '', initialProductInterest = '', hideProductI
 
         {/* Country */}
         <div>
-          <label htmlFor="country" className="block text-sm font-medium text-gray-700 mb-2">
+          <label
+            htmlFor="country"
+            className="block text-sm font-medium text-gray-700 mb-2"
+          >
             Country *
           </label>
           <input
@@ -224,7 +253,7 @@ const ContactForm = ({ className = '', initialProductInterest = '', hideProductI
             name="country"
             value={formData.country}
             onChange={handleChange}
-            className={`${inputClasses} ${errors.country ? errorClasses : ''}`}
+            className={`${inputClasses} ${errors.country ? errorClasses : ""}`}
             placeholder="Enter your country"
           />
           {errors.country && (
@@ -234,7 +263,10 @@ const ContactForm = ({ className = '', initialProductInterest = '', hideProductI
 
         {/* Company */}
         <div>
-          <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-2">
+          <label
+            htmlFor="company"
+            className="block text-sm font-medium text-gray-700 mb-2"
+          >
             Company Name
           </label>
           <input
@@ -251,7 +283,10 @@ const ContactForm = ({ className = '', initialProductInterest = '', hideProductI
         {/* Product Interest */}
         {!hideProductInterest && (
           <div>
-            <label htmlFor="productInterest" className="block text-sm font-medium text-gray-700 mb-2">
+            <label
+              htmlFor="productInterest"
+              className="block text-sm font-medium text-gray-700 mb-2"
+            >
               Product Interest
             </label>
             <select
@@ -261,9 +296,15 @@ const ContactForm = ({ className = '', initialProductInterest = '', hideProductI
               onChange={handleChange}
               className={inputClasses}
             >
-              <option value="" className="text-gray-500">Select a product category</option>
+              <option value="" className="text-gray-500">
+                Select a product category
+              </option>
               {productCategories.map((category) => (
-                <option key={category} value={category} className="text-gray-900">
+                <option
+                  key={category}
+                  value={category}
+                  className="text-gray-900"
+                >
                   {category}
                 </option>
               ))}
@@ -274,7 +315,10 @@ const ContactForm = ({ className = '', initialProductInterest = '', hideProductI
 
       {/* Message */}
       <div>
-        <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+        <label
+          htmlFor="message"
+          className="block text-sm font-medium text-gray-700 mb-2"
+        >
           Message *
         </label>
         <textarea
@@ -283,7 +327,9 @@ const ContactForm = ({ className = '', initialProductInterest = '', hideProductI
           rows={6}
           value={formData.message}
           onChange={handleChange}
-          className={`${inputClasses} ${errors.message ? errorClasses : ''} resize-vertical`}
+          className={`${inputClasses} ${
+            errors.message ? errorClasses : ""
+          } resize-vertical`}
           placeholder="Tell us about your requirements, quantities, delivery timelines, or any specific questions you have..."
         />
         {errors.message && (
@@ -312,7 +358,8 @@ const ContactForm = ({ className = '', initialProductInterest = '', hideProductI
 
       {/* Privacy Notice */}
       <p className="text-sm text-gray-600 text-center">
-        By submitting this form, you agree to our privacy policy. We respect your privacy and will never share your information with third parties.
+        By submitting this form, you agree to our privacy policy. We respect
+        your privacy and will never share your information with third parties.
       </p>
     </form>
   );
