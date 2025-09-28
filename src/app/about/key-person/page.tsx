@@ -15,6 +15,13 @@ const people = [
     image: "/images/hero-page-sliders/hero-1.jpg",
     position: "Digital Marketing and Sales Manager",
     info: "Expert in market analysis and consumer behavior."
+  },
+  {
+    name: "Shahnawaz Radhanpuri",
+    qualification: "BCA and diploma in logistics management",
+    image: "/images/hero-page-sliders/hero-1.jpg",
+    position: "Logistics and Supply Chain Manager",
+    info: "Expert in logistics optimization and supply chain management."
   }
 ];
 

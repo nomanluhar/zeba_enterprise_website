@@ -37,7 +37,7 @@ const ContactPage = () => {
       icon: <Phone className="text-primary" size={24} />,
       title: 'Phone',
       primary: '+91-8238824463',
-      secondary: '+91-8238824463',
+      secondary: '+91-9157429574',
       description: 'Call us for immediate assistance'
     },
     {
@@ -67,7 +67,7 @@ const ContactPage = () => {
     {
       name: 'Sales & Exports',
       email: 'sales@zeba-enterprise.com',
-      phone: '+91-8238824463',
+      phone: '+91-9157429574',
       description: 'For product inquiries and export orders'
     },
     {
@@ -79,7 +79,7 @@ const ContactPage = () => {
     {
       name: 'Sourcing & Procurement',
       email: 'sourcing@zeba-enterprise.com',
-      phone: '+91-8238824463',
+      phone: '+91-9727261648',
       description: 'For supplier sourcing and procurement'
     },
     {
