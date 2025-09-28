@@ -8,6 +8,13 @@ const people = [
     image: "/images/hero-page-sliders/hero-1.jpg",
     position: "Managing Director",
     info: "Expert in global trade, strategic leadership."
+  },
+  {
+    name: "Adnan Nagori",
+    qualification: "B.Com, Market Research",
+    image: "/images/hero-page-sliders/hero-1.jpg",
+    position: "Digital Marketing and Sales Manager",
+    info: "Expert in market analysis and consumer behavior."
   }
 ];
 
