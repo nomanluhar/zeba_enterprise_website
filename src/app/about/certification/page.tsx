@@ -1,3 +1,14 @@
+import { generateSEOMetadata } from '@/components/ui/SEOHead';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = generateSEOMetadata({
+  title: 'Certifications - Zeba Enterprise | Licensed Exporter',
+  description: 'View all certifications and licenses held by Zeba Enterprise. We are certified by DGFT, APEDA, MSME, FIEO, FICCI, GCCI, and more for global import-export compliance.',
+  keywords: 'certifications, export licenses, DGFT, APEDA, MSME, FIEO, FICCI, GCCI, GST, FDA, Halal, GMP, Udyog Aadhaar, Spice Board',
+  canonical: 'https://zeba-enterprise.com/about/certification',
+  ogImage: '/images/certificate/dgft.png',
+  ogType: 'website',
+});
 import React from "react";
 import Image from "next/image";
 

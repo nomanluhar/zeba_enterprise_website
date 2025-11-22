@@ -223,7 +223,7 @@ const AboutPage = () => {
         </section>
 
         {/* Team Section */}
-        <section className="py-24 lg:py-32 bg-white">
+        {/* <section className="py-24 lg:py-32 bg-white">
           <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 xl:px-20">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
@@ -255,7 +255,7 @@ const AboutPage = () => {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Timeline */}
         <section className="py-24 lg:py-32 bg-gray-50">

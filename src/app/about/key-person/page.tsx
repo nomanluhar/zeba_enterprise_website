@@ -1,3 +1,14 @@
+import { generateSEOMetadata } from '@/components/ui/SEOHead';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = generateSEOMetadata({
+  title: 'Key Persons - Zeba Enterprise | Leadership Team',
+  description: 'Meet the leadership team of Zeba Enterprise. Learn about our directors, managers, and their expertise in international trade and business.',
+  keywords: 'key persons, leadership, management team, directors, business experts, import export company',
+  canonical: 'https://zeba-enterprise.com/about/key-person',
+  ogImage: '/images/hero-page-sliders/hero-1.jpg',
+  ogType: 'profile',
+});
 import React from "react";
 import Image from "next/image";
 
